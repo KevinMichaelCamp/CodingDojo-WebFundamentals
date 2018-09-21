@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Awesome Webpage</title>
+  <meta name="description" content="A really cool site!">
+  <link rel="stylesheet" type="text/css" href="my_css_file.css">
+  <script type="text/javascript" src="my_javascript_file.js"></script>
+  <script type="text/javascript" src="my_javascript_file2.js"></script>
+  <script type="text/javascript" src="my_javascript_file3.js"></script>
+</head>
+
+<body>
+  <div class="Headers">
+    <h1>H1 Tag</h1>
+    <h2>H2 Tag</h2>
+    <h3>H3 Tag</h3>
+    <h4>H4 Tag</h4>
+    <h5>H5 Tag</h5>
+    <h6>H6 Tag</h6>
+  </div>
+
+  <div class="Paragraphs">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus velit lectus, ut congue ligula molestie nec. Fusce a facilisis risus. Nullam id magna semper, semper eros quis, varius velit. Duis sagittis porta enim ac mattis. Cum sociis
+      natoque penatibus et magnis dis parturient montes, nascet ur ridiculus mus. Donec sodales lorem id orci blandit, ac tincidunt lorem po rta. Sed euismod a arcu sed mollis.</p>
+
+    <p>Maecenas imperdiet risus at nisl aliquet, eu ullamcorper enim imperdiet. Sed id metus consectetur, sollicitudin eros at, dapibus ipsum. Morbi cursus nibh sit amet porta fringilla. Nam egestas nisi dui, a varius lectus egestas non. Nulla facilisi.
+      Donec sed mauris vitae sem volutpat auctor nec eu nisi. Maec enas quis diam consequat, semper felis ullamcorper, mollis nisi. Morbi turpis nulla, pellentesque sit amet erat eu, pretium sagittis mi. Fusce rhoncus imperdiet eros, ac porta ligula ullamcorper
+      in. Suspendisse nulla urna, facil isis non nunc ut, faucibus condimentum leo.</p>
+  </div>
+
+  <div class="Link_Image">
+    <img src="https://pbs.twimg.com/profile_images/875787192789905409/qZC6LBM0_400x400.jpg" alt="an image" height=100 width=100>
+
+    <a href="http://codingdojo.com">CodingDojo</a>
+    <a href="https://www.google.com">Click here to go to Google</a>
+    <a href="https://www.google.com">
+        <img src="https://pbs.twimg.com/profile_images/875787192789905409/qZC6LBM0_400x400.jpg" alt="an image" height=100 width=100>
+    </a>
+  </div>
+
+  <div class="Unordered_List">
+    <ul>
+      <li>
+        <a href="home.html">Home</a>
+      </li>
+      <li>
+        <a href="about.html">About</a>
+      </li>
+      <li>
+        <a href="contact_us.html">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="Unordered_List">
+    <ul>
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+    </ul>
+  </div>
+
+  <div class="Ordered_List">
+    <ol>
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+    </ol>
+  </div>
+
+  <div class="Table">
+    <table>
+      <thead>
+        <tr>
+          <th>column</th>
+          <th>column</th>
+          <th>column</th>
+          <th>column</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>table data</td>
+          <td>table data</td>
+          <td>table data</td>
+          <td>table data</td>
+        </tr>
+        <tr>
+          <td>table data</td>
+          <td>table data</td>
+          <td>table data</td>
+          <td>table data</td>
+        </tr>
+        <tr>
+          <td>table data</td>
+          <td>table data</td>
+          <td>table data</td>
+          <td>table data</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="Table">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sample Name</td>
+          <td>an_email@gmail.com</td>
+          <td>555-5555</td>
+        </tr>
+        <tr>
+          <td>Another Name</td>
+          <td>another_email@gmail.com</td>
+          <td>444-4444</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="Forms">
+    <form class="" action="index.html" method="post">
+      <div class="text">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name">
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+      </div>
+
+      <div class="radio">
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+
+        <label for="decline">Prefer not to say</label>
+        <input type="radio" id="decline" name="gender" value="decline">
+      </div>
+
+      <div class="drop_down_menu">
+        <select class="drop_down_menu" name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="decline">Prefer not to say</option>
+        </select>
+      </div>
+
+      <div class="multiple">
+        <label for="blue">Blue</label>
+        <input type="checkbox" id="blue" name="color" value="blue">
+        <label for="green">Green</label>
+        <input type="checkbox" id="green" name="color" value="green">
+        <label for="red">Red</label>
+        <input type="checkbox" id="red" name="color" value="red">
+        <label for="orange">Orange</label>
+        <input type="checkbox" id="orange" name="color" value="orange">
+        <label for="yellow">Yellow</label>
+        <input type="checkbox" id="yellow" name="color" value="yellow">
+      </div>
+
+      <div class="text_area">
+        <textarea name="description" rows="8" cols="80">Enter Text Here</textarea>
+      </div>
+
+      <div class="hidden">
+        <input type="hidden" name="id" value="7">
+      </div>
+
+      <div class="sumbit">
+        <button type="submit" name="button">SUBMIT</button>
+        <input type="submit" name="submit" value="SUBMIT">
+      </div>
+    </form>
+  </div>
+
+  <div class="registration_form">
+    <form action="process.php" method="post">
+      <p>Please Register</p>
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name" name="first_name">
+
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+
+      <p>Select your gender:</p>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male">
+
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" value="female">
+
+      <label for="decline">Prefer not to say</label>
+      <input type="radio" id="decline" name="gender" value="decline">
+
+      <p>Select 3 of your favorite colors:</p>
+      <label for="blue">Blue</label>
+      <input type="checkbox" id="blue" name="color" value="blue">
+
+      <label for="green">Green</label>
+      <input type="checkbox" id="green" name="color" value="green">
+
+      <label for="red">Red</label>
+      <input type="checkbox" id="red" name="color" value="red">
+
+      <label for="black">Black</label>
+      <input type="checkbox" id="black" name="color" value="black">
+
+      <label for="purple">Purple</label>
+      <input type="checkbox" id="purple" name="color" value="Purple">
+
+      <label for="favorite_color">Favorite Color:</label>
+      <input type="color" name="favorite_color">
+
+      <p>Say a few words about yourself:</p>
+      <textarea name="description"></textarea>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <label for="pw_confirm">Password Confirmation:</label>
+      <input type="password" id="pw_confirm" name="password_confirmation">
+
+      <input type="submit" value="Click here to register">
+    </form>
+  </div>
+
+  <div class="Registration_2">
+    <form>
+      <p>Please Register</p>
+      <label>
+          Name:<input type="text" name="name">
+      </label>
+      <p>Select your gender:</p>
+      <label>
+         Male<input type="radio" name="gender" value="male">
+      </label>
+      <label>
+         Female<input type="radio" name="gender" value="female">
+      </label>
+      <label>
+         Prefer not to say<input type="radio" name="gender" value="decline">
+      </label>
+      <p>For security, enter your password.</p>
+      <label>
+          Password:<input type="password" name="password">
+      </label>
+      <input type="submit" value="Click here to register">
+    </form>
+  </div>
+
+</body>
+
+</html>
