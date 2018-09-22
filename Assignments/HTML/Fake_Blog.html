@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fake Blog</title>
+  </head>
+  <body>
+    <header>
+      <h1>Kevin Camp - Fake Blog</h1>
+      <img src="static/blog_pic.jpg" alt="Image Not Found" style="padding:20px">
+    </header>
+
+    <div class="video" style="padding:20px">
+      <video src="static/videoplayback.mp4" poster="static/bassnectar.jpg" controls></video>
+    </div>
+
+    <div class="audio" style="padding:20px">
+      <img src="static/Speaker.ico" alt="Image Not Found" height=100 width=100>
+      <audio src="static/Bassnectar.mp3" controls></audio>
+    </div>
+
+
+    <div class="table" style="padding:20px;">
+      <table style="width:100px; border:2px solid rgb(19, 10, 96); background-color:rgb(231, 228, 31)">
+        <thead >
+          <tr>
+            <th style="padding:15px">Technology</th>
+            <th style="padding:15px">Logo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding:15px">GitHub</td>
+            <td style="padding:15px"><img src="static/git.ico" height=20 alt="No Icon"></td>
+          </tr>
+          <tr>
+            <td style="padding:15px">JavaScript</td>
+            <td style="padding:15px"><img src="static/JavaScript2.ico" height=20 alt="No Icon"></td>
+          </tr>
+          <tr>
+            <td style="padding:15px">MongoDB</td>
+            <td style="padding:15px"><img src="static/Mongodb.ico" height=20 alt="No Icon"></td>
+          </tr>
+          <tr>
+            <td style="padding:15px">Python</td>
+            <td style="padding:15px"><img src="static/Python2.ico" height=20 alt="No Icon"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 style="padding:20px">Please take this short survey</h2>
+    <form class="form" action="index.html" method="post">
+      <div class="email" style="padding:20px">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="email@email.com">
+      </div>
+      <div class="opt" style="padding:20px">
+        <label for="yes">Yes, please send me lots of emails</label>
+        <input type="radio" id="yes" name="opt" value="yes">
+        <label for="no">No, please don't send me any emails</label>
+        <input type="radio" id="no" name="opt" value="no">
+      </div>
+      <div class="how" style="padding:20px">
+        <h3>How did you hear about CodingDojo?</h3>
+        <label for="facebook">Facebook</label>
+        <input type="checkbox" name="facebook" value="facebook">
+        <label for="internet">Internet</label>
+        <input type="checkbox" name="internet" value="internet">
+        <label for="referral">Referral</label>
+        <input type="checkbox" name="referral" value="referral">
+      </div>
+      <div class="submit" style="padding:20px">
+        <button type="submit" name="button">Submit</button>
+      </div>
+    </form>
+
+    <div class="link" style="padding:20px">
+      <h3>Go to CodingDojo</h3>
+      <a href="https://learn.codingdojo.com/dashboard"><img src="static/Dojo.ico" alt="No Icon" height=40></a>
+    </div>
+
+  </body>
+</html>
