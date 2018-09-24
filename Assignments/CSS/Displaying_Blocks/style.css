@@ -1,28 +1,40 @@
-#wrapper{
-  width:900px;
-  background-color: rgb(213,210,174);
-  padding: 20px 0 20px 160px;
+#wrapper {
+  width: 900px;
+  background-color: rgb(213, 210, 174);
+  padding: 20px 0;
 }
-#header{
-  display: inline;
+
+#inner {
+  width: 700px;
   margin: auto;
 }
-img{
-  height: 100px;
+
+#header {
+  display: inline;
+  margin-left: 25px;
 }
-h1{
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+h1 {
   font-size: 2.5em;
-  margin: 20px;
+  margin: 30px;
   display: inline;
 }
-.row img{
+
+.row img {
   margin: 10px 10px 0 0;
   padding: 10px;
   border: 2px solid black;
 }
-.blue{
-  background-color: rgb(130,180,238);
+
+.blue {
+  background-color: rgb(130, 180, 238);
 }
-.pink{
-  background-color: rgb(243,104,112);
+
+.pink {
+  background-color: rgb(243, 104, 112);
 }
