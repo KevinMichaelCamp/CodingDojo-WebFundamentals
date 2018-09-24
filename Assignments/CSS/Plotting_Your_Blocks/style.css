@@ -5,15 +5,17 @@
   margin: auto;
   padding-top: 10px;
   border-radius: 5px;
-  background-color: rgb(10,5,55);
+  background-color: rgb(10, 5, 55);
 }
-#header{
+
+#header {
   height: 150px;
   margin: 10px;
   border-radius: 5px;
-  background-color: rgb(200,200,25);
+  background-color: rgb(200, 200, 25);
 }
-#navigation{
+
+#navigation {
   height: 419px;
   width: 200px;
   margin-left: 10px;
@@ -22,7 +24,8 @@
   border-radius: 5px;
   background-color: rgb(50, 115, 225);
 }
-#maincontent{
+
+#maincontent {
   height: 400px;
   width: 1136px;
   margin: 0 0 20px 20px;
@@ -31,7 +34,8 @@
   border-radius: 5px;
   background-color: rgb(140, 100, 40);
 }
-.subcontent{
+
+.subcontent {
   height: 200px;
   width: 325px;
   margin-right: 45px;
@@ -39,9 +43,10 @@
   display: inline-block;
   border-radius: 5px;
   border: 2px solid black;
-  background-color: rgb(200,200,25);
+  background-color: rgb(200, 200, 25);
 }
-#advertisement{
+
+#advertisement {
   height: 165px;
   width: 1080px;
   border-radius: 5px;
