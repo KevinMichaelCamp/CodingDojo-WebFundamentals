@@ -1,10 +1,10 @@
-*{
+* {
   text-align: center;
   font-family: arial;
   font-weight: bold;
 }
 
-.container{
+.container {
   height: 90%;
   width: 90%;
   border: 5px solid black;
@@ -12,7 +12,8 @@
   background-color: rgb(10, 13, 46);
   padding: 20px;
 }
-h1{
+
+h1 {
   margin: auto;
   width: 200px;
   border: 2px solid grey;
@@ -20,31 +21,40 @@ h1{
   padding: 10px;
   background-color: rgb(215, 193, 32)
 }
-p{
+
+p {
   font-size: 1.5em;
   color: rgb(215, 193, 32);
 }
-#times{
+
+#times {
   font-family: times;
 }
-#courier{
+
+#courier {
   font-family: courier;
 }
-#arial{
+
+#arial {
   font-family: arial;
 }
-#serif{
+
+#serif {
   font-family: serif;
 }
-#sans_serif{
+
+#sans_serif {
   font-family: sans-serif;
 }
-#cursive{
+
+#cursive {
   font-family: cursive;
 }
-#fantasy{
+
+#fantasy {
   font-family: fantasy;
 }
-#monospace{
+
+#monospace {
   font-family: monospace;
 }
