@@ -3,11 +3,76 @@
 * {
   vertical-align: baseline;
   font-weight: inherit;
-  font-family: inherit;
+  font-family: arial;
   font-style: inherit;
   font-size: 100%;
   border: 0 none;
   outline: 0;
   padding: 0;
   margin: 0;
+}
+
+#wrapper{
+  width: 970px;
+  height: 800px;
+  padding: 10px 0;
+  background-color: rgb(36, 80, 118);
+}
+#header{
+  width: 100%;
+}
+img{
+  width: 325px;
+  margin-left: 20px;
+}
+#header_right{
+  display: inline-block;
+  vertical-align: top;
+  width: 325px;
+  height: 90px;
+  margin-left: 280px;
+}
+#text_size{
+  text-align: right;
+  padding-right: 30px;
+}
+#text_size p{
+  display: inline-block;
+  font-size: .75em;
+  color: white;
+}
+#text_size a{
+  font-size: .75em;
+  color: rgb(211, 178, 1);
+}
+#text_size p:nth-of-type(2){
+  color: black;
+}
+#search_box{
+  text-align: center;
+  width: 260px;
+  margin: 5px 0 0 30px;
+  padding: 20px;
+  background-color: rgb(68, 68, 68);
+  border-radius: 5px;
+}
+form{
+  display: inline;
+  width: 200px;
+  text-align: center;
+}
+#search_box input{
+  color: grey;
+  font-size: .7em;
+  padding: 5px;
+  border: 2px solid grey;
+  text-align: center;
+}
+#search_box button{
+  color: white;
+  font-size: .75em;
+  padding: 5px;
+  background-color: rgb(36, 80, 118);
+  border: 2px solid grey;
+  border-radius: 5px;
 }
