@@ -78,3 +78,26 @@ form{
   border-radius: 5px;
   box-shadow: 1px 1px black;
 }
+#nav1{
+  width: 850px;
+  height: 50px;
+  line-height: 50px;
+  margin: 40px auto 0 auto;
+  background-color: rgb(67, 125, 173);
+  border-radius: 5px;
+  box-shadow: 2px 2px black;
+}
+#list1{
+  list-style-type: none;
+  padding-left: 20px;
+  text-align: center;
+}
+#list1 li{
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 1.2em;
+}
+#list1 a{
+  color: white;
+  text-decoration: none;
+}
