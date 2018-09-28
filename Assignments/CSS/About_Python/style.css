@@ -14,7 +14,7 @@
 
 #wrapper{
   width: 970px;
-  height: 800px;
+  height: 775px;
   padding: 10px 0;
   background-color: rgb(36, 80, 118);
 }
@@ -95,9 +95,118 @@ form{
 #list1 li{
   display: inline-block;
   padding: 0 20px;
-  font-size: 1.2em;
 }
 #list1 a{
   color: white;
+  font-size: 1.2em;
   text-decoration: none;
+}
+#nav2{
+  display: inline-block;
+  width:200px;
+  padding: 30px 0 0 40px;
+}
+#list2{
+  list-style-type: none;
+  text-align: center;
+
+}
+#list2 li:before{
+  content: ">>";
+  padding-right: 5px;
+  color: yellow;
+  font-size: .8em;
+}
+#list2 a{
+  color: white;
+  font-size: .8em;
+}
+#main{
+  display: inline-block;
+  width: 500px;
+  padding: 20px 0 0 120px;
+  vertical-align: top;
+  text-align: center;
+}
+#main p{
+  color: white;
+  font-size: .75em;
+}
+#main p:not(:first-child){
+  padding: 10px;
+  color: yellow;
+  font-style: italic;
+  font-size: .9em;
+}
+#main p:last-child{
+  color: white;
+  font-size: .8em;
+  font-style: normal;
+}
+#content{
+  width: 970px;
+  background-color: white;
+  border-top: 2px solid black;
+}
+#start{
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+  margin: 10px 10px 0 80px;
+  text-align: center;
+  border-top: 3px solid rgb(115, 167, 213);
+}
+#applications{
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+  margin: 10px 0 0 10px;
+  text-align: center;
+  border-top: 3px solid rgb(115, 167, 213);
+}
+h3{
+  padding: 10px 40px 0 40px;
+}
+#content p{
+  display: inline-block;
+  padding: 10px 80px;
+  font-size: .72em;
+}
+span{
+  font-size: .75em;
+  color: rgb(132, 178, 218);
+}
+#content ul{
+  width: 210px;
+  margin: 0 auto 10px auto;
+  list-style: none;
+  color: rgb(132, 178, 218);
+  font-size: .72em;
+}
+#content a{
+  color: rgb(132, 178, 218);
+  text-decoration: none;
+}
+#content li:before{
+  display: absolute
+  content: "■";
+  font-size: .72em;
+  vertical-align: middle;
+  color: black;
+  padding: 0 5px 5px 0;
+}
+#footer{
+  text-align: center;
+  padding: 50px;
+}
+#footer a{
+  font-size: .8em;
+  text-decoration: none;
+  color:rgb(132, 178, 218);
+  padding: 20px;
+}
+#footer p{
+  font-size: .65em;
+  padding-top: 20px;
+  color:rgb(132, 178, 218);
 }
