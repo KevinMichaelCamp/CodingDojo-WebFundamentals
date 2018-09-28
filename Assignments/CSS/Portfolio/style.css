@@ -130,18 +130,8 @@ a {
 }
 
 .icons img {
-  width: 40px;
-  padding: 5px;
-}
-
-.icons2 {
   display: inline-block;
-  width: 275px;
-  height: 54px;
-  background: -webkit-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(240, 230, 240) 50%, rgb(220, 205, 220) 100%);
-}
-
-.icons2 img {
+  vertical-align: top;
   width: 40px;
   padding: 5px;
 }
