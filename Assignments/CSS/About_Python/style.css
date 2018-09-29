@@ -12,43 +12,51 @@
   margin: 0;
 }
 
-#wrapper{
+#wrapper {
   width: 970px;
   height: 775px;
   padding: 10px 0;
   background-color: rgb(36, 80, 118);
 }
-#header{
+
+#header {
   width: 100%;
 }
-img{
+
+img {
   width: 325px;
   margin-left: 20px;
 }
-#header_right{
+
+#header_right {
   display: inline-block;
   vertical-align: top;
   width: 325px;
   height: 90px;
   margin-left: 280px;
 }
-#text_size{
+
+#text_size {
   text-align: right;
   padding-right: 30px;
 }
-#text_size p{
+
+#text_size p {
   display: inline-block;
   font-size: .75em;
   color: white;
 }
-#text_size a{
+
+#text_size a {
   font-size: .75em;
   color: rgb(211, 178, 1);
 }
-#text_size p:nth-of-type(2){
+
+#text_size p:nth-of-type(2) {
   color: black;
 }
-#search_box{
+
+#search_box {
   text-align: center;
   width: 260px;
   margin: 5px 0 0 30px;
@@ -57,19 +65,22 @@ img{
   border-radius: 10px;
   box-shadow: 2px 2px black;
 }
-form{
+
+form {
   display: inline;
   width: 200px;
   text-align: center;
 }
-#search_box input{
+
+#search_box input {
   color: lightgrey;
   font-size: .75em;
   padding: 10px;
   border: 2px inset grey;
   text-align: center;
 }
-#search_box button{
+
+#search_box button {
   color: white;
   font-size: .75em;
   padding: 5px;
@@ -78,7 +89,8 @@ form{
   border-radius: 5px;
   box-shadow: 1px 1px black;
 }
-#nav1{
+
+#nav1 {
   width: 850px;
   height: 50px;
   line-height: 50px;
@@ -87,68 +99,80 @@ form{
   border-radius: 5px;
   box-shadow: 2px 2px black;
 }
-#list1{
+
+#list1 {
   list-style-type: none;
   padding-left: 20px;
   text-align: center;
 }
-#list1 li{
+
+#list1 li {
   display: inline-block;
   padding: 0 20px;
 }
-#list1 a{
+
+#list1 a {
   color: white;
   font-size: 1.2em;
   text-decoration: none;
 }
-#nav2{
+
+#nav2 {
   display: inline-block;
-  width:200px;
+  width: 200px;
   padding: 30px 0 0 40px;
 }
-#list2{
+
+#list2 {
   list-style-type: none;
   text-align: center;
-
 }
-#list2 li:before{
+
+#list2 li:before {
   content: ">>";
   padding-right: 5px;
   color: yellow;
   font-size: .8em;
 }
-#list2 a{
+
+#list2 a {
   color: white;
   font-size: .8em;
 }
-#main{
+
+#main {
   display: inline-block;
   width: 500px;
   padding: 20px 0 0 120px;
   vertical-align: top;
   text-align: center;
 }
-#main p{
+
+#main p {
   color: white;
   font-size: .75em;
 }
-#main p:not(:first-child){
+
+#main p:not(:first-child) {
   padding: 10px;
   color: yellow;
   font-style: italic;
   font-size: .9em;
 }
-#main p:last-child{
+
+#main p:last-child {
   color: white;
   font-size: .8em;
   font-style: normal;
 }
-#content{
+
+#content {
   width: 970px;
   background-color: white;
   border-top: 2px solid black;
 }
-#start{
+
+#start {
   display: inline-block;
   vertical-align: top;
   width: 400px;
@@ -156,7 +180,8 @@ form{
   text-align: center;
   border-top: 3px solid rgb(115, 167, 213);
 }
-#applications{
+
+#applications {
   display: inline-block;
   vertical-align: top;
   width: 400px;
@@ -164,49 +189,57 @@ form{
   text-align: center;
   border-top: 3px solid rgb(115, 167, 213);
 }
-h3{
+
+h3 {
   padding: 10px 40px 0 40px;
 }
-#content p{
+
+#content p {
   display: inline-block;
   padding: 10px 80px;
   font-size: .72em;
 }
-span{
+
+span {
   font-size: .75em;
   color: rgb(132, 178, 218);
 }
-#content ul{
+
+#content ul {
   width: 210px;
   margin: 0 auto 10px auto;
   list-style: none;
   color: rgb(132, 178, 218);
   font-size: .72em;
 }
-#content a{
+
+#content a {
   color: rgb(132, 178, 218);
   text-decoration: none;
 }
-#content li:before{
-  display: absolute
-  content: "■";
+
+#content li:before {
+  display: absolute content: "■";
   font-size: .72em;
   vertical-align: middle;
   color: black;
   padding: 0 5px 5px 0;
 }
-#footer{
+
+#footer {
   text-align: center;
   padding: 50px;
 }
-#footer a{
+
+#footer a {
   font-size: .8em;
   text-decoration: none;
-  color:rgb(132, 178, 218);
+  color: rgb(132, 178, 218);
   padding: 20px;
 }
-#footer p{
+
+#footer p {
   font-size: .65em;
   padding-top: 20px;
-  color:rgb(132, 178, 218);
+  color: rgb(132, 178, 218);
 }
