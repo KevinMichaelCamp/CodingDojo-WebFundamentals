@@ -66,7 +66,7 @@ h2{
 .blue{
   color: rgb(34, 101, 158);
 }
-#sidebar a:nth-of-type(1){
+#top a:nth-of-type(1){
   display: inline-block;
   text-align: center;
   width: 150px;
@@ -78,7 +78,7 @@ h2{
   box-shadow: 2px 2px grey;
   background: -webkit-linear-gradient(top, rgb(125,185,232) 0%,rgb(30,87,153) 100%);
 }
-#sidebar a:nth-of-type(2){
+#top a:nth-of-type(2){
   display: inline-block;
   text-align: center;
   width: 150px;
@@ -111,9 +111,18 @@ h2{
   width: 75px;
   padding: 20px 0 0 60px;
 }
-#sidebar a:nth-of-type(3){
+#ad a{
+  display: inline-block;
+  margin: 20px 0 0 25px;
+  padding: 5px 20px;
   color: white;
+  text-decoration: none;
   background-color: rgb(0, 192, 223);
+  border-radius: 5px;
+}
+#arrow{
+  font-size: .7em;
+
 }
 #content{
   display: inline-block;
