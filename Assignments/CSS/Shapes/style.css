@@ -3,11 +3,66 @@
 * {
   vertical-align: baseline;
   font-weight: inherit;
-  font-family: inherit;
+  font-family: arial;
   font-style: inherit;
   font-size: 100%;
   border: 0 none;
   outline: 0;
   padding: 0;
   margin: 0;
+}
+#wrapper{
+  width: 970px;
+  height: 600px;
+  padding: 50px;
+  margin:20px;
+  border: 2px outset black;
+  border-radius: 2px;
+}
+.box{
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+}
+h1{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 100px 10px 175px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#square{
+  display: inline-block;
+  margin: 0 100px 20px 150px;
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(135deg, rgb(216,224,222) 0%,rgb(174,191,188) 22%,rgb(153,175,171) 33%,rgb(142,166,162) 50%,rgb(130,157,152) 67%,rgb(78,92,90) 82%,rgb(14,14,14) 100%);
+}
+#circle{
+  display: inline-block;
+  margin: 0 100px 20px 150px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgb(216,224,222) 0%,rgb(174,191,188) 22%,rgb(153,175,171) 33%,rgb(142,166,162) 50%,rgb(130,157,152) 67%,rgb(78,92,90) 82%,rgb(14,14,14) 100%);
+}
+#triangle {
+  display: inline-block;
+  margin: 0 100px 20px 150px;
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 150px solid lightgrey;
+}
+#pac_man h1{
+  margin: 20px 0 0 425px;
+}
+#big_circle{
+  display: inline-block;
+  margin: 20px 0 0 325px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgb(254,252,234) 0%,rgb(241,218,54) 100%);
 }
