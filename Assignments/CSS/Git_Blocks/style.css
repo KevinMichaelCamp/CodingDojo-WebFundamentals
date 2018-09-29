@@ -12,29 +12,33 @@
   margin: 0;
 }
 
-#wrapper{
+#wrapper {
   width: 970px;
   background-color: rgb(220, 225, 210);
   padding: 20px;
 }
-#header{
+
+#header {
   width: 930px;
   margin-bottom: 20px;
   padding: 20px 20px 20px 20px;
   background-color: rgb(55, 175, 175);
 }
-img{
+
+img {
   width: 60px;
   background-color: rgb(55, 175, 175);
 }
-h1{
+
+h1 {
   display: inline-block;
   vertical-align: top;
   margin-top: 10px;
   font-size: 2em;
   font-weight: bold;
 }
-ul{
+
+ul {
   display: inline-block;
   vertical-align: top;
   margin-top: 20px;
@@ -42,52 +46,63 @@ ul{
   text-align: center;
   list-style: none;
 }
-li{
+
+li {
   display: inline;
   padding-right: 10px;
 }
-ul a{
+
+ul a {
   color: white;
 }
-#main{
+
+#main {
   padding: 20px 0 20px 20px;
   margin-bottom: 20px;
   background-color: rgb(250, 230, 145);
 }
-#sidebar{
+
+#sidebar {
   display: inline-block;
   width: 250px;
   padding: 20px 10px;
   background-color: rgb(20, 65, 65);
 }
-h2{
+
+h2 {
   color: white;
   margin-bottom: 20px;
   font-size: 1.25em;
   font-weight: bold;
 }
-p{
+
+p {
   margin-left: 10px;
   color: white;
   line-height: 1.5;
 }
-h2:last-of-type{
+
+h2:last-of-type {
   margin-top: 20px;
 }
-#blocks{
+
+#blocks {
   display: inline-block;
   vertical-align: top;
   width: 670px;
 }
-#blocks p{
+
+#blocks p {
   margin-left: 0;
 }
-#top{
+
+#top {
   display: inline-block;
   vertical-align: top;
   margin-left: 25px;
 }
-.top_block{
+
+.top_block {
   display: inline-block;
   vertical-align: top;
   width: 175px;
@@ -96,24 +111,29 @@ h2:last-of-type{
   padding: 10px 5px;
   background-color: rgb(20, 65, 65);
 }
-.top_block:last-of-type{
+
+.top_block:last-of-type {
   margin-right: 0;
 }
-h3{
+
+h3 {
   margin-bottom: 10px;
   color: white;
   font-size: 1.15em;
   font-weight: bold;
 }
-span{
+
+span {
   color: rgb(55, 175, 175);
 }
-#middle{
+
+#middle {
   display: inline-block;
   vertical-align: top;
   margin: 5px 0 5px 25px;
 }
-.middle_block{
+
+.middle_block {
   display: inline-block;
   vertical-align: top;
   width: 275px;
@@ -122,10 +142,12 @@ span{
   padding: 10px 5px;
   background-color: rgb(20, 65, 65);
 }
-.middle_block:last-of-type{
+
+.middle_block:last-of-type {
   margin-left: 20px;
 }
-#bottom{
+
+#bottom {
   display: inline-block;
   width: 595px;
   height: 150px;
@@ -134,12 +156,14 @@ span{
   padding: 10px 5px;
   background-color: rgb(20, 65, 65);
 }
-#footer{
+
+#footer {
   width: 930px;
   text-align: center;
   padding: 20px 20px 20px 20px;
   background-color: rgb(55, 175, 175);
 }
-#footer p{
+
+#footer p {
   color: black;
 }
