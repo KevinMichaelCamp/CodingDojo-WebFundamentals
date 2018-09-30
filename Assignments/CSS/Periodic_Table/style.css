@@ -11,16 +11,19 @@
   padding: 0;
   margin: 0;
 }
-#wrapper{
+
+#wrapper {
   width: 1050px;
   padding: 20px;
   border: 1px dotted black;
 }
-#columns{
+
+#columns {
   display: inline-block;
   width: 1050px;
 }
-h1{
+
+h1 {
   display: inline-block;
   text-align: center;
   vertical-align: top;
@@ -29,11 +32,13 @@ h1{
   color: red;
   font-size: .8em;
 }
-.row{
+
+.row {
   width: 1050px;
   height: 54px;
 }
-.blue{
+
+.blue {
   display: inline-block;
   vertical-align: top;
   text-align: center;
@@ -41,14 +46,16 @@ h1{
   height: 50px;
   background-color: rgb(105, 155, 255);
 }
-p{
+
+p {
   display: inline-block;
   width: 50px;
   vertical-align: top;
   text-align: center;
   font-size: .7em;
 }
-h2{
+
+h2 {
   display: inline-block;
   width: 50px;
   vertical-align: text-top;
@@ -56,12 +63,14 @@ h2{
   font-size: 1em;
   font-weight: bold;
 }
-.empty{
+
+.empty {
   display: inline-block;
   width: 50px;
   height: 50px;
 }
-.yellow{
+
+.yellow {
   display: inline-block;
   vertical-align: top;
   text-align: center;
@@ -69,7 +78,8 @@ h2{
   height: 50px;
   background-color: rgb(255, 200, 0);
 }
-.pink{
+
+.pink {
   display: inline-block;
   vertical-align: top;
   text-align: center;
@@ -77,11 +87,13 @@ h2{
   height: 50px;
   background-color: rgb(255, 155, 150);
 }
-#bottom{
+
+.bottom {
   width: 1050px;
   height: 54px;
 }
-#bottom > p:first-child{
+
+.bottom>p:first-child {
   display: inline-block;
   text-align: center;
   margin-top: 20px;
@@ -90,7 +102,8 @@ h2{
   font-size: .8em;
   color: red;
 }
-#bottom > p:nth-child(2){
+
+.bottom>p:nth-child(2) {
   display: inline-block;
   text-align: center;
   margin-top: 20px;
@@ -99,7 +112,8 @@ h2{
   font-size: .8em;
   color: red;
 }
-.green{
+
+.green {
   display: inline-block;
   vertical-align: top;
   text-align: center;
