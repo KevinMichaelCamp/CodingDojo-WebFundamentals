@@ -13,83 +13,71 @@
 }
 
 #wrapper{
-  width: 970px;
+  max-width: 970px;
   height: 700px;
   padding: 20px;
   border: 1px dotted black;
 }
-#main{
+
+#header{
+  width: 100%;
+  height: 20%;
+  margin-bottom: 20px;
+  background-color: green;
+}
+
+/* #main{
   display: inline-block;
   vertical-align: top;
-  height: 60%;
+  padding: 20px;
+  width: 710px;
+  height: 500px;
   background-color: red;
 }
 #top{
   display: inline-block;
-  width: 95%;
-  height: 40%;
-  margin: 2%;
-  border: 1px dotted black;
+  text-align: center;
+  width: 710px;
+  height: 250px;
 }
 
 .box{
   display: inline-block;
-  width: 27%;
-  height: 100%;
+  margin-right: 7px;
+  width: 225px;
+  height: 225px;
   background-color: yellow;
 }
 
+#bottom{
+  display: inline-block;
+  margin-left: 5px;
+  width: 695px;
+  height: 225px;
+  background-color: purple;
+} */
+
 /* Responsive CSS for Phone */
 @media only screen and (max-width: 480px){
-  #wrapper{
-    width: 90%;
-  }
-  #header{
-    height: 20%;
-    margin-bottom: 20px;
-    background-color: green;
-  }
   #sidebar{
     display: none;
-  }
-  #main{
-    width: 100%
   }
 }
 
 /* Responsive CSS for Tablet */
 @media only screen and (min-width: 481px){
-  #wrapper{
-    width: 90%;
-  }
-  #header{
-    height: 20%;
-    margin-bottom: 20px;
-    background-color: green;
-  }
   #sidebar{
     display: none;
-  }
-  #main{
-    width: 100%
   }
 }
 
 /* Responsive CSS for Desktop */
 @media only screen and (min-width: 1024px){
-  #header{
-    height: 20%;
-    margin-bottom: 20px;
-    background-color: green;
-  }
   #sidebar{
     display: inline-block;
-    margin-right: 4%;
+    margin-right: 15px;
     width: 20%;
     height: 60%;
     background-color: blue;
-  }
-  #main{
-    width: 75.5%
   }
 }
