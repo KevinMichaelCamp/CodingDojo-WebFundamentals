@@ -13,19 +13,83 @@
 }
 
 #wrapper{
+  width: 970px;
+  height: 700px;
   padding: 20px;
+  border: 1px dotted black;
 }
-/* Responsive CSS for Phone */
-@media only screen and (max-width: 480){
+#main{
+  display: inline-block;
+  vertical-align: top;
+  height: 60%;
+  background-color: red;
+}
+#top{
+  display: inline-block;
+  width: 95%;
+  height: 40%;
+  margin: 2%;
+  border: 1px dotted black;
+}
 
+.box{
+  display: inline-block;
+  width: 27%;
+  height: 100%;
+  background-color: yellow;
+}
+
+/* Responsive CSS for Phone */
+@media only screen and (max-width: 480px){
+  #wrapper{
+    width: 90%;
+  }
+  #header{
+    height: 20%;
+    margin-bottom: 20px;
+    background-color: green;
+  }
+  #sidebar{
+    display: none;
+  }
+  #main{
+    width: 100%
+  }
 }
 
 /* Responsive CSS for Tablet */
-@media only screen and (min-width: 481){
-
+@media only screen and (min-width: 481px){
+  #wrapper{
+    width: 90%;
+  }
+  #header{
+    height: 20%;
+    margin-bottom: 20px;
+    background-color: green;
+  }
+  #sidebar{
+    display: none;
+  }
+  #main{
+    width: 100%
+  }
 }
 
 /* Responsive CSS for Desktop */
-@media only screen and (min-width: 1024){
-
+@media only screen and (min-width: 1024px){
+  #header{
+    height: 20%;
+    margin-bottom: 20px;
+    background-color: green;
+  }
+  #sidebar{
+    display: inline-block;
+    margin-right: 4%;
+    width: 20%;
+    height: 60%;
+    background-color: blue;
+  }
+  #main{
+    width: 75.5%
+  }
 }
