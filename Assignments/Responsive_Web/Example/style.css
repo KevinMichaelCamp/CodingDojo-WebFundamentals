@@ -1,0 +1,54 @@
+/* Condensed Universal CSS Reset */
+
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper{
+  padding: 50px;
+}
+
+.navbtn{
+  padding: 20px;
+  margin:  20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+
+/* Responsive CSS for Phone */
+@media only screen and (max-width: 480px) {
+  .navbtn{
+    display: block;
+    background-color: yellow
+  }
+}
+
+/* Responsive CSS for Tablet */
+@media only screen and (min-width: 481px){
+  .tablet{
+    display: block;
+  }
+  .navbtn{
+    background-color: green;
+  }
+}
+
+/* Responsive CSS for Desktop */
+@media only screen and (min-width: 1024px){
+  .tablet{
+    display: inline-block;
+  }
+  .navbtn{
+    background-color: blue;
+  }
+}
