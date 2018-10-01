@@ -11,3 +11,79 @@
   padding: 0;
   margin: 0;
 }
+
+#wrapper{
+  padding: 20px;
+}
+
+h1{
+  padding: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: grey;
+}
+
+p{
+  padding: 20px;
+  background-color: lightgrey;
+}
+
+p:not(:first-of-type){
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+/* Phone */
+@media only screen and (max-width: 480px){
+  }
+  .small{
+    display: block;
+    background-color: yellow;
+  }
+  .medium{
+    display: none;
+  }
+  .large{
+    display: none;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px){
+  #wrapper{
+    width: 600px;
+  }
+  .small{
+    display: none;
+  }
+  .medium{
+    display: block;
+    background-color: blue;
+  }
+  .large{
+    display: none;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 1023px){
+  .phone{
+
+  }
+  .tablet{
+    display: none;
+  }
+  #wrapper{
+    width: 970px;
+  }
+  .small{
+    display: none;
+  }
+  .medium{
+    display: none;
+  }
+  .large{
+    display: block;
+    background-color: green;
+  }
+}
