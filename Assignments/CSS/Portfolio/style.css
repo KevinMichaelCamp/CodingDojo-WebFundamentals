@@ -142,15 +142,13 @@ a {
 .button button {
   margin: 10px;
   padding: 10px;
+  color: white;
+  text-decoration: none;
   font-weight: bold;
   font-size: .75em;
   background-color: rgb(65, 125, 100);
   border: 1px solid black;
   border-radius: 5px;
-}
-.button a{
-  color: white;
-  text-decoration: none;
 }
 
 #footer {

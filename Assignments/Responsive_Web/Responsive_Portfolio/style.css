@@ -13,7 +13,8 @@
 }
 
 /* Stylesheet */
-#wrapper{
+
+#wrapper {
   max-width: 970px;
   background-color: rgb(249, 249, 249);
 }
@@ -36,38 +37,32 @@ h1 {
 }
 
 /* Responsive CSS for Phone */
-@media only screen and (max-width: 480px){
 
-  #wrapper{
+@media only screen and (max-width: 480px) {
+  #wrapper {
     width: 480px;
   }
-
-  #header{
+  #header {
     width: 480px;
     height: 100px;
     padding: 5px;
   }
-
   h1 {
     display: block;
     padding-bottom: 10px;
   }
-
   #header h2 {
     display: block;
   }
-
-  #main{
+  #main {
     width: 96%;
     padding: 5px;
   }
-
   #top img {
     width: 455px;
     margin-bottom: 5px;
     border: 3px solid rgb(190, 190, 190);
   }
-
   #about {
     width: 460px;
     display: block;
@@ -82,49 +77,40 @@ h1 {
     font-weight: bold;
     font-size: 1.2em;
   }
-
   p {
     padding: 10px;
     background-color: white;
   }
-
   a {
     color: black;
     margin: 10px;
   }
-
   .project {
     vertical-align: top;
     display: inline-block;
     margin: 20px 39px 0 0;
     width: 460px;
   }
-
   .project img {
     display: none;
   }
-
   .project3 img {
     display: none;
   }
-
   .project3 {
     display: inline-block;
     margin-top: 20px;
     width: 460px;
   }
-
   #projects p {
     background: -webkit-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(240, 230, 240) 50%, rgb(220, 205, 220) 100%);
     margin-top: -5px;
     height: 125px;
   }
-
   .technologies {
     display: inline-block;
     width: 460px;
   }
-
   .technologies h3 {
     color: white;
     background: -webkit-linear-gradient(top, rgb(175, 175, 180) 20%, rgb(142, 142, 142) 49%, rgb(175, 175, 180) 80%);
@@ -132,24 +118,20 @@ h1 {
     font-weight: bold;
     font-size: 1em;
   }
-
   .icons {
     display: none;
   }
-
-  .tablet_icons{
+  .tablet_icons {
     display: inline-block;
     width: 460px;
     background: -webkit-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(240, 230, 240) 50%, rgb(220, 205, 220) 100%);
   }
-
   .tablet_icons img {
     display: inline-block;
     vertical-align: top;
     width: 40px;
     padding: 5px;
   }
-
   .button {
     display: flex;
     align-items: center;
@@ -159,53 +141,47 @@ h1 {
     margin-top: -1px;
     background: -webkit-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(240, 230, 240) 50%, rgb(220, 205, 220) 100%);
   }
-
   .button button {
     margin: 10px;
     padding: 10px;
+    color: white;
+    text-decoration: none;
     font-weight: bold;
     font-size: .75em;
     background-color: rgb(65, 125, 100);
     border: 1px solid black;
     border-radius: 5px;
   }
-  .button a{
-    color: white;
-    text-decoration: none;
-  }
-
   #footer {
     width: 100%;
     height: 50px;
     padding: 10px;
     margin: 0 0 20px 0;
   }
-
   #footer p {
     width: 285px;
     margin: auto;
     background-color: rgb(249, 249, 249);
   }
-
   #links {
     margin: auto;
     width: 400px;
   }
-
   #footer img {
     width: 20px;
   }
-
   #footer a {
     margin: 0px;
   }
 }
+
 /* Responsive CSS for Tablet */
-@media only screen and (min-width: 481px){
-  #wrapper{
+
+@media only screen and (min-width: 481px) {
+  #wrapper {
     width: 600px;
   }
-  #header{
+  #header {
     width: 600px;
     height: 50px;
     padding: 10px;
@@ -217,17 +193,15 @@ h1 {
     display: inline;
     margin-left: 10px;
   }
-  #main{
+  #main {
     width: 96%;
     padding: 10px;
   }
-
   #top img {
     width: 570px;
     margin-bottom: 10px;
     border: 3px solid rgb(190, 190, 190);
   }
-
   #about {
     width: 575px;
     display: block;
@@ -235,7 +209,6 @@ h1 {
     vertical-align: top;
     background-color: rgb(249, 249, 249);
   }
-
   .box_head h2 {
     color: white;
     background: -webkit-linear-gradient(top, rgb(175, 175, 180) 20%, rgb(142, 142, 142) 49%, rgb(175, 175, 180) 80%);
@@ -243,49 +216,40 @@ h1 {
     font-weight: bold;
     font-size: 1.2em;
   }
-
   p {
     padding: 10px;
     background-color: white;
   }
-
   a {
     color: black;
     margin: 10px;
   }
-
   .project {
     vertical-align: top;
     display: inline-block;
     margin: 20px 39px 0 0;
     width: 575px;
   }
-
   .project img {
     width: 575px;
   }
-
   .project3 img {
     width: 575px;
   }
-
   .project3 {
     display: inline-block;
     margin-top: 20px;
     width: 575px;
   }
-
   #projects p {
     background: -webkit-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(240, 230, 240) 50%, rgb(220, 205, 220) 100%);
     margin-top: -5px;
     height: 90px;
   }
-
   .technologies {
     display: inline-block;
     width: 575px;
   }
-
   .technologies h3 {
     color: white;
     background: -webkit-linear-gradient(top, rgb(175, 175, 180) 20%, rgb(142, 142, 142) 49%, rgb(175, 175, 180) 80%);
@@ -293,24 +257,20 @@ h1 {
     font-weight: bold;
     font-size: 1em;
   }
-
   .icons {
     display: none;
   }
-
-  .tablet_icons{
+  .tablet_icons {
     display: inline-block;
     width: 575px;
     background: -webkit-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(240, 230, 240) 50%, rgb(220, 205, 220) 100%);
   }
-
   .tablet_icons img {
     display: inline-block;
     vertical-align: top;
     width: 40px;
     padding: 5px;
   }
-
   .button {
     display: flex;
     align-items: center;
@@ -319,80 +279,66 @@ h1 {
     height: 58px;
     background: -webkit-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(240, 230, 240) 50%, rgb(220, 205, 220) 100%);
   }
-
   .button button {
     margin: 10px;
     padding: 10px;
+    color: white;
+    text-decoration: none;
     font-weight: bold;
     font-size: .75em;
     background-color: rgb(65, 125, 100);
     border: 1px solid black;
     border-radius: 5px;
   }
-
-  .button a{
-    color: white;
-    text-decoration: none;
-  }
-
   #footer {
     width: 100%;
     height: 50px;
     padding: 10px;
     margin: 0 0 20px 0;
   }
-
   #footer p {
     width: 285px;
     margin: auto;
     background-color: rgb(249, 249, 249);
   }
-
   #links {
     margin: auto;
     width: 400px;
   }
-
   #footer img {
     width: 20px;
   }
-
   #footer a {
     margin: 0px;
   }
 }
-/* Responsive CSS for Desktop */
-@media only screen and (min-width: 1024px){
 
-  #wrapper{
+/* Responsive CSS for Desktop */
+
+@media only screen and (min-width: 1024px) {
+  #wrapper {
     width: 970px;
   }
-
-  #header{
+  #header {
     width: 970px;
     height: 50px;
     padding: 20px;
   }
-
   h1 {
     display: inline;
   }
-
   #header h2 {
     display: inline;
     margin-left: 350px;
   }
-
-  #main{
+  #main {
     width: 96%;
     padding: 20px;
   }
-
   #top img {
     width: 370px;
     border: 3px solid rgb(190, 190, 190);
   }
-
   #about {
     width: 490px;
     height: 250px;
@@ -401,7 +347,6 @@ h1 {
     margin-left: 40px;
     background-color: rgb(249, 249, 249);
   }
-
   .box_head h2 {
     color: white;
     background: -webkit-linear-gradient(top, rgb(175, 175, 180) 20%, rgb(142, 142, 142) 49%, rgb(175, 175, 180) 80%);
@@ -409,49 +354,40 @@ h1 {
     font-weight: bold;
     font-size: 1.2em;
   }
-
   p {
     padding: 10px;
     background-color: white;
   }
-
   a {
     color: black;
     margin: 10px;
   }
-
   .project {
     vertical-align: top;
     display: inline-block;
     margin: 20px 39px 0 0;
     width: 275px;
   }
-
   .project img {
     width: 275px;
   }
-
   .project3 img {
     width: 275px;
   }
-
   .project3 {
     display: inline-block;
     margin-top: 20px;
     width: 275px;
   }
-
   #projects p {
     background: -webkit-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(240, 230, 240) 50%, rgb(220, 205, 220) 100%);
     margin-top: -5px;
     height: 195px;
   }
-
   .technologies {
     display: inline-block;
     width: 275px;
   }
-
   .technologies h3 {
     color: white;
     background: -webkit-linear-gradient(top, rgb(175, 175, 180) 20%, rgb(142, 142, 142) 49%, rgb(175, 175, 180) 80%);
@@ -459,24 +395,20 @@ h1 {
     font-weight: bold;
     font-size: 1em;
   }
-
   .icons {
     display: inline-block;
     width: 275px;
     background: -webkit-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(240, 230, 240) 50%, rgb(220, 205, 220) 100%);
   }
-
   .icons img {
     display: inline-block;
     vertical-align: top;
     width: 40px;
     padding: 5px;
   }
-
-  .tablet_icons{
+  .tablet_icons {
     display: none;
   }
-
   .button {
     display: flex;
     align-items: center;
@@ -485,43 +417,35 @@ h1 {
     height: 58px;
     background: -webkit-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(240, 230, 240) 50%, rgb(220, 205, 220) 100%);
   }
-
   .button button {
     margin: 10px;
     padding: 10px;
+    color: white;
+    text-decoration: none;
     font-weight: bold;
     font-size: .75em;
     background-color: rgb(65, 125, 100);
     border: 1px solid black;
     border-radius: 5px;
   }
-  .button a{
-    color: white;
-    text-decoration: none;
-  }
-
   #footer {
     width: 100%;
     height: 50px;
     padding: 10px;
     margin: 0 0 20px 0;
   }
-
   #footer p {
     width: 285px;
     margin: auto;
     background-color: rgb(249, 249, 249);
   }
-
   #links {
     margin: auto;
     width: 400px;
   }
-
   #footer img {
     width: 20px;
   }
-
   #footer a {
     margin: 0px;
   }
