@@ -13,71 +13,144 @@
 }
 
 #wrapper{
+  width: 970px;
   max-width: 970px;
   height: 700px;
+  max-height: 1210px;
   padding: 20px;
   border: 1px dotted black;
 }
 
 #header{
-  width: 100%;
-  height: 20%;
   margin-bottom: 20px;
   background-color: green;
 }
 
-/* #main{
+#main{
   display: inline-block;
   vertical-align: top;
   padding: 20px;
-  width: 710px;
-  height: 500px;
   background-color: red;
 }
+
 #top{
   display: inline-block;
-  text-align: center;
-  width: 710px;
-  height: 250px;
+  vertical-align: top;
 }
 
 .box{
   display: inline-block;
-  margin-right: 7px;
-  width: 225px;
-  height: 225px;
   background-color: yellow;
 }
 
 #bottom{
   display: inline-block;
-  margin-left: 5px;
-  width: 695px;
-  height: 225px;
   background-color: purple;
-} */
+}
 
 /* Responsive CSS for Phone */
 @media only screen and (max-width: 480px){
+  #wrapper{
+    height: 1210px;
+  }
+  #header{
+    height: 15%
+  }
+  #main{
+    width: 96%;
+    height: 965px;
+  }
   #sidebar{
     display: none;
+  }
+  #top{
+    width: 930px;
+    height: 225px;
+  }
+  .box{
+    display: block;
+    width: 930px;
+    height: 225px;
+    margin-bottom: 20px;
+  }
+  #bottom{
+    width: 930px;
+    height: 225px;
+    margin: 510px 0 20px 0;
   }
 }
 
 /* Responsive CSS for Tablet */
 @media only screen and (min-width: 481px){
+  #wrapper{
+    height: 925px;
+  }
+  #header{
+    height: 15%;
+  }
   #sidebar{
     display: none;
+  }
+  #main{
+    width: 96%;
+    height: 725px;
+  }
+  #top{
+    width: 930px;
+    height: 225px;
+  }
+  #tablet{
+    display: inline-block;
+  }
+  .box{
+    width: 423px;
+    height: 225px;
+    margin: 0 20px 20px 20px;
+  }
+  #bottom{
+    width: 890px;
+    height: 225px;
+    margin: 275px 0 0 20px;
   }
 }
 
 /* Responsive CSS for Desktop */
 @media only screen and (min-width: 1024px){
+  #wrapper{
+    width: 970px;
+    height: 700px;
+  }
+  #header{
+    width: 100%;
+    height: 20%;
+  }
   #sidebar{
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 23px;
     width: 20%;
     height: 60%;
     background-color: blue;
+  }
+  #main{
+    width: 73%;
+    height: 71%;
+  }
+  #top{
+    width: 705px;
+    height: 225px;
+    margin-bottom: 30px;
+  }
+  #tablet{
+    display: inline-block;
+  }
+  .box{
+    width: 225px;
+    height: 225px;
+    margin: 0 3px;
+  }
+  #bottom{
+    width: 695px;
+    height: 225px;
+    margin: 0 0 0 5px;
   }
 }
