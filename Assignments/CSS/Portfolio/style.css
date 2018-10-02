@@ -3,7 +3,7 @@
 * {
   vertical-align: baseline;
   font-weight: inherit;
-  font-family: inherit;
+  font-family: arial;
   font-style: inherit;
   font-size: 100%;
   border: 0 none;
@@ -35,7 +35,6 @@ h1 {
 #header h2 {
   display: inline;
   margin-left: 350px;
-  font-family: arial;
   font-weight: bold;
   font-size: 1.5em;
 }
@@ -64,19 +63,16 @@ h1 {
   color: white;
   background: -webkit-linear-gradient(top, rgb(175, 175, 180) 20%, rgb(142, 142, 142) 49%, rgb(175, 175, 180) 80%);
   padding: 10px;
-  font-family: arial;
   font-weight: bold;
   font-size: 1.2em;
 }
 
 p {
-  font-family: arial;
   padding: 10px;
   background-color: white;
 }
 
 a {
-  font-family: arial;
   color: black;
   margin: 10px;
 }
@@ -117,7 +113,6 @@ a {
   color: white;
   background: -webkit-linear-gradient(top, rgb(175, 175, 180) 20%, rgb(142, 142, 142) 49%, rgb(175, 175, 180) 80%);
   padding: 10px;
-  font-family: arial;
   font-weight: bold;
   font-size: 1em;
 }
@@ -147,13 +142,15 @@ a {
 .button button {
   margin: 10px;
   padding: 10px;
-  color: white;
-  font-family: arial;
   font-weight: bold;
   font-size: .75em;
   background-color: rgb(65, 125, 100);
   border: 1px solid black;
   border-radius: 5px;
+}
+.button a{
+  color: white;
+  text-decoration: none;
 }
 
 #footer {

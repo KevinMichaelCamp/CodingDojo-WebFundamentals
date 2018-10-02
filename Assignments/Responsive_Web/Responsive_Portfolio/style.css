@@ -11,3 +11,24 @@
   padding: 0;
   margin: 0;
 }
+
+/* Stylesheet */
+#wrapper{
+  max-width: 970px;
+  height: auto;
+}
+
+#header{
+  width: 100%
+}
+
+h1 {
+  display: inline;
+  font-family: 'Comic Sans MS';
+  font-weight: bold;
+  font-size: 2em;
+}
+
+/* Responsive CSS for Phone */
+/* Responsive CSS for Tablet */
+/* Responsive CSS for Desktop */
