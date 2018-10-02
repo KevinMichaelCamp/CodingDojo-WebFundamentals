@@ -12,77 +12,78 @@
   margin: 0;
 }
 
-#wrapper{
+#wrapper {
   padding: 20px;
 }
 
-h1{
+h1 {
   padding: 20px;
+  margin-bottom: 20px;
   font-size: 1.5em;
   font-weight: bold;
   background-color: grey;
 }
 
-p{
+p {
   padding: 20px;
+  margin-bottom: 20px;
   background-color: lightgrey;
 }
 
-p:not(:first-of-type){
+p:not(:first-of-type) {
   font-size: 1.25em;
   font-weight: bold;
 }
 
 /* Phone */
-@media only screen and (max-width: 480px){
-  }
-  .small{
+
+@media only screen and (max-width: 480px) {
+  /* #wrapper{
+    width: auto;
+  } */
+  .small {
     display: block;
     background-color: yellow;
   }
-  .medium{
+  .medium {
     display: none;
   }
-  .large{
+  .large {
     display: none;
   }
 }
 
 /* Tablet */
-@media only screen and (min-width: 481px){
-  #wrapper{
+
+@media only screen and (min-width: 481px) {
+  /* #wrapper{
     width: 600px;
-  }
-  .small{
+  } */
+  .small {
     display: none;
   }
-  .medium{
+  .medium {
     display: block;
     background-color: blue;
   }
-  .large{
+  .large {
     display: none;
   }
 }
 
 /* Desktop */
-@media only screen and (min-width: 1023px){
-  .phone{
 
-  }
-  .tablet{
-    display: none;
-  }
-  #wrapper{
+@media only screen and (min-width: 1023px) {
+  #wrapper {
     width: 970px;
   }
-  .small{
+  .small {
     display: none;
   }
-  .medium{
+  .medium {
     display: none;
   }
-  .large{
+  .large {
     display: block;
     background-color: green;
   }
