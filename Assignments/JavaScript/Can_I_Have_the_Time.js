@@ -1,6 +1,16 @@
 function haveTime(hour, minute, period) {
   var dayNight;
 
+  // Noon & Midnight
+  if (hour === 12 && minute === 0 && period === 'am'){
+    console.log("It's midnight.");
+    return;
+  }
+  else if(hour === 12 && minute === 0 && period === 'pm'){
+    console.log("It's noon.");
+    return;
+  }
+
   // Set var dayNight to morning or evening
   if (period === 'am') {
     dayNight = ' in the morning';
@@ -53,4 +63,18 @@ var hour4 = 8;
 var minute4 = 45;
 var period4 = 'am';
 haveTime(hour4, minute4, period4)
+console.log("*****************************");
+
+console.log("Test Case 5");
+var hour5 = 12;
+var minute5 = 0;
+var period5 = 'am';
+haveTime(hour5, minute5, period5)
+console.log("*****************************");
+
+console.log("Test Case 6");
+var hour6 = 12;
+var minute6 = 0;
+var period6 = 'pm';
+haveTime(hour6, minute6, period6)
 console.log("*****************************");
