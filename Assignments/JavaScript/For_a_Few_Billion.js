@@ -3,16 +3,17 @@ var total = 0
 var reward = .01;
 var day = 1;
 
-for(var i = 1; i <= 30; i++){
+for (var i = 1; i <= 30; i++) {
   total = total + reward;
   console.log("Day " + day + ":" + total.toFixed(2));
-  day ++;
+  day++;
   reward = reward * 2;
 }
 
 console.log("After 30 days, the reward is " + total.toFixed(2));
 
-# of Days for reward to be > or = 10000
+# of Days
+for reward to be > or = 10000
 var total = 0
 var reward = .01;
 var day = 1;
