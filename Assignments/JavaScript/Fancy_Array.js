@@ -1,7 +1,7 @@
-function fancyArray(arr, symbol, reverse){
+function fancyArray(arr, symbol, reverse) {
   // Normal order
   if (reverse === false) {
-    for(var i = 0; i < arr.length; i ++){
+    for (var i = 0; i < arr.length; i++) {
       console.log(i + " " + symbol + " " + arr[i]);
     }
   }
