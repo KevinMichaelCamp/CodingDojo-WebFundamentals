@@ -5,31 +5,23 @@
     <title>JavaScript Debugger!</title>
     <script type="text/javascript">
     "use strict;"
-    function fancyArray(arr, symbol, reverse) {
-      // Normal order
-      if (reverse === false) {
-        for (var i = 0; i < arr.length; i++) {
-          console.log(i + " " + symbol + " " + arr[i]);
-        }
-      }
-      //Reverse order
-      else {
-        for (var i = arr.length - 1; i >= 0; i--) {
-          console.log(i + " " + symbol + " " + arr[i]);
+    function slotMachine(quarters){
+    var total = quarters;
+    var winLose;
+    var winAmount;
+
+      for(var i = quarters; i > 0; i --){
+        winLose = Math.ceil(Math.random() * 100);
+        console.log(winLose);
+        total = total - 1;
+        if (winLose === 1) {
+          winAmount = Math.floor(Math.random() * 50) + 50;
+          console.log("You win " + winAmount);
         }
       }
     }
 
-    // Test Cases
-    console.log("Test Case 1");
-    var arr1 = ["James", "Jill", "Jane", "Jack"];
-    fancyArray(arr1, "->", false);
-    console.log("***************************");
-
-    console.log("Test Case 2");
-    var arr2 = ["James", "Jill", "Jane", "Jack"];
-    fancyArray(arr2, "■", true);
-    console.log("***************************");
+    slotMachine(100);
     </script>
   </head>
 </html>
