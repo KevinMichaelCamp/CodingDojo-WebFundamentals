@@ -1,8 +1,8 @@
-function numbersOnly(arr){
+function numbersOnly(arr) {
   var newArr = [];
 
   for (var i = 0; i < arr.length; i++) {
-    if (typeof(arr[i]) === "number"){
+    if (typeof(arr[i]) === "number") {
       newArr.push(arr[i]);
     }
   }
@@ -16,7 +16,7 @@ numbersOnly(arr1);
 // newArray is [1, -3, 0.5]
 
 // Part 2 - work in place
-function numbersOnly(arr){
+function numbersOnly(arr) {
   var temp;
 
   for (var i = 0; i < arr.length; i++) {
