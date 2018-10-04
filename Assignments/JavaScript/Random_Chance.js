@@ -1,9 +1,9 @@
-function slotMachine(quarters, leaveAt){
-var total = quarters;
-var winLose;
-var winAmount;
+function slotMachine(quarters, leaveAt) {
+  var total = quarters;
+  var winLose;
+  var winAmount;
 
-  for(quarters; quarters >= 0; quarters --){
+  for (quarters; quarters >= 0; quarters--) {
     // Check if player has money
     if (quarters === 0) {
       console.log("You are broke");
