@@ -5,23 +5,7 @@
     <title>JavaScript Debugger!</title>
     <script type="text/javascript">
     "use strict;"
-    function slotMachine(quarters){
-    var total = quarters;
-    var winLose;
-    var winAmount;
-
-      for(var i = quarters; i > 0; i --){
-        winLose = Math.ceil(Math.random() * 100);
-        console.log(winLose);
-        total = total - 1;
-        if (winLose === 1) {
-          winAmount = Math.floor(Math.random() * 50) + 50;
-          console.log("You win " + winAmount);
-        }
-      }
-    }
-
-    slotMachine(100);
+    
     </script>
   </head>
 </html>
