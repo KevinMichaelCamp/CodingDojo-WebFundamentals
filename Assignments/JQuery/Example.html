@@ -9,11 +9,18 @@
           alert('Hello!');
         })
       });
+      $(document).ready(function(){
+      $('button').click(function(){
+          $('#myParagraph').text('see how I .text() works as a setter!');
+        })
+      })
     </script>
     <title>jQuery Example</title>
   </head>
   <body>
     <h4>Click Me!</h4>
     <h4>Click Me Too!</h4>
+    <p id='myParagraph'> This is my paragraph! </p>
+    <button> Click me to change the paragraph! </button>
   </body>
 </html>
