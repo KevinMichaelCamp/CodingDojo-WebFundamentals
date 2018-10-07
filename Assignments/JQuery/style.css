@@ -1,0 +1,77 @@
+/* Condensed Universal CSS Reset */
+
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: arial;
+  font-style: inherit;
+  font-size: 100%;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* Stylesheet */
+#wrapper{
+  padding: 20px;
+}
+
+#page{
+  width: 970px;
+  padding: 40px;
+  background-color: rgb(255, 180, 30);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.function{
+  margin-bottom: 80px;
+}
+button{
+  padding: 20px;
+  color: white;
+  background-color: rgb(15, 10, 45);
+  border: 3px outset lightgrey;
+  border-radius: 5px;
+}
+h1{
+  display: inline-block;
+  margin:0 20px 0 300px;
+  font-size: 2em;
+  font-weight: bold;
+}
+p{
+  display:inline-block;
+  font-weight: bold;
+  margin: 0 0 10px 325px;
+}
+#hidden{
+  display: none;
+}
+ul{
+  list-style-type: none;
+  margin-bottom: 40px;
+}
+#slideDown_menu{
+  display: none;
+}
+#fadeIn_h1{
+  display: none;
+  margin: 10px 0 10px 475px;
+}
+#fadeOut_h1{
+  margin: 10px 0 10px 475px;
+}
+.green{
+  background-color: rgb(15, 175, 45);
+}
+#after_p{
+  margin-right: 20px;
+}
+#appended_p{
+  margin: 20px 0 40px 65px;
+}
+#htmled_p{
+  margin: 0 0 40px 40px;
+}
