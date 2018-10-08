@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Tips & Tricks</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="page">
+        <header>
+          <h1>CSS Tips & Tricks</h1>
+        </header>
+        <main>
+          <div class="example">
+            <h2>Drop Capitals (Drop Caps)</h2>
+            <p>Everyone loves drop caps. It reminds us of the traditional printed book, and is a great way to start a page of content. That 1st, large letter really grabs your attention. There’s an easy way to create a drop cap in css, and it’s by using the pseudo element: :first letter. Here’s an example. What this does is set the letter to 3x the size of the other letters. It sets 3px of space around the letter to prevent overlapping, and sets the color of the letter to red.</p>
+          </div>
+          <div class="example">
+            <h2>box-sizing: border-box</h2>
+            <p>This is a favorite among many web designers, because it solves the problem of padding and layout issues. Basically, when you set a box to a specific width, and add padding to it, the padding adds to the size of the box. However, with box-sizing:border-box;, this is negated, and boxes stay the size they are meant to be. These boxes both have a height and width of 100px.</p>
+            <div id="normal"></div>
+            <div id="border_box"></div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

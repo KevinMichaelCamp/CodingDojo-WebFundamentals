@@ -1,0 +1,84 @@
+/* Condensed Universal CSS Reset */
+
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: arial;
+  font-style: inherit;
+  font-size: 100%;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* Stylesheet */
+
+#wrapper{
+  padding: 20px;
+}
+
+#page{
+  width: 970px;
+  padding: 40px;
+  background-color: rgb(255, 180, 30);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.example{
+  margin-bottom: 40px;
+}
+header{
+  margin-bottom: 40px;
+  padding: 20px;
+  color: white;
+  background-color: rgb(15, 10, 45);
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+h1{
+  font-size: 3em;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+p{
+  line-height: 1.5;
+}
+
+p:first-letter{
+  color: #f00;
+  font-size: 4.5em;
+  float: left;
+  line-height: .5;
+}
+
+#normal{
+  background-color: rgb(15, 10, 45);
+  border: 1px solid grey;
+  border-radius: 5px;
+  display: inline-block;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  width: 100px;
+}
+
+#border_box{
+  background-color: rgb(15, 10, 45);
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 100px;
+  margin: 20px; 
+  padding: 20px;
+  width: 100px;
+}
