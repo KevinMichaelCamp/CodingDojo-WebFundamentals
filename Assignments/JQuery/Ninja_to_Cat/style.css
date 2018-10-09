@@ -13,14 +13,19 @@
 }
 
 /* Stylesheet */
-#wrapper{
-  padding: 20px;
-}
 
-#page{
+#wrapper{
   width: 970px;
   padding: 40px;
+  margin: 20px;
   background-color: rgb(255, 180, 30);
   border: 1px solid black;
   border-radius: 5px;
+}
+
+img{
+  display: block;
+  width: 250px;
+  margin: 0 auto 10px auto;
+  border: 1px solid lightgrey;
 }
