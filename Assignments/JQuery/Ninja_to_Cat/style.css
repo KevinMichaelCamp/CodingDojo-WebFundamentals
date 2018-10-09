@@ -14,7 +14,7 @@
 
 /* Stylesheet */
 
-#wrapper{
+#wrapper {
   width: 970px;
   padding: 40px;
   margin: 20px;
@@ -23,7 +23,7 @@
   border-radius: 5px;
 }
 
-img{
+img {
   display: block;
   width: 250px;
   margin: 0 auto 10px auto;
