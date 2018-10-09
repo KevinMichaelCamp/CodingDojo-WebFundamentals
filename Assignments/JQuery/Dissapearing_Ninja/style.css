@@ -19,8 +19,33 @@
 
 #page{
   width: 970px;
-  padding: 40px;
+  padding: 40px 0 40px 40px;
   background-color: rgb(255, 180, 30);
   border: 1px solid black;
+  border-radius: 5px;
+}
+
+.ninja{
+  display: inline-block;
+  margin: 0 35px 20px 0;
+  width: 200px;
+}
+
+img{
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button{
+  display: block;
+  width: 200px;
+  margin: auto;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+  background-color: rgb(15, 10, 45);
+  border: 1px solid lightgrey;
   border-radius: 5px;
 }

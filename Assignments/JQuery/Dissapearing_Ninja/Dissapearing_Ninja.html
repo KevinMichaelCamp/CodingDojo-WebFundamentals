@@ -2,9 +2,80 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Dissapearing Ninja</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script>
+      $(document).ready(function(){
+        $('.ninja').click(function(){
+          $(this).hide('slow');
+        });
+        $('#restore').click(function(){
+          $('.ninja').show('slow');
+        });
+      });
+    </script>
   </head>
   <body>
-
+    <div id="wrapper">
+      <div id="page">
+        <div class="row">
+          <div class="ninja">
+            <img src="images/Ninja1.jpg" alt="Image Unavialable">
+          </div>
+          <div class="ninja">
+            <img src="images/Ninja2.jpg" alt="Image Unavialable">
+          </div>
+          <div class="ninja">
+            <img src="images/Ninja3.jpg" alt="Image Unavialable">
+          </div>
+          <div class="ninja">
+            <img src="images/Ninja4.jpg" alt="Image Unavialable">
+          </div>
+        <div class="row">
+          <div class="ninja">
+            <img src="images/Ninja3.jpg" alt="Image Unavialable">
+          </div>
+          <div class="ninja">
+            <img src="images/Ninja1.jpg" alt="Image Unavialable">
+          </div>
+          <div class="ninja">
+            <img src="images/Ninja4.jpg" alt="Image Unavialable">
+          </div>
+          <div class="ninja">
+            <img src="images/Ninja2.jpg" alt="Image Unavialable">
+          </div>
+        <div class="row">
+          <div class="ninja">
+            <img src="images/Ninja4.jpg" alt="Image Unavialable">
+          </div>
+          <div class="ninja">
+            <img src="images/Ninja3.jpg" alt="Image Unavialable">
+          </div>
+          <div class="ninja">
+            <img src="images/Ninja2.jpg" alt="Image Unavialable">
+          </div>
+          <div class="ninja">
+            <img src="images/Ninja1.jpg" alt="Image Unavialable">
+          </div>
+        </div>
+        <div class="row">
+          <div class="ninja">
+            <img src="images/Ninja3.jpg" alt="Image Unavialable">
+          </div>
+          <div class="ninja">
+            <img src="images/Ninja4.jpg" alt="Image Unavialable">
+          </div>
+          <div class="ninja">
+            <img src="images/Ninja1.jpg" alt="Image Unavialable">
+          </div>
+          <div class="ninja">
+            <img src="images/Ninja2.jpg" alt="Image Unavialable">
+          </div>
+        </div>
+      </div>
+      <button id="restore"type="button" name="button">RESTORE</button>
+    </div>
   </body>
 </html>
