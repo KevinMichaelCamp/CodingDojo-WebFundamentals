@@ -13,11 +13,12 @@
 }
 
 /* Stylesheet */
-#wrapper{
+
+#wrapper {
   padding: 20px;
 }
 
-#page{
+#page {
   width: 970px;
   padding: 40px 0 40px 40px;
   background-color: rgb(255, 180, 30);
@@ -25,19 +26,19 @@
   border-radius: 5px;
 }
 
-.ninja{
+.ninja {
   display: inline-block;
   margin: 0 35px 20px 0;
   width: 200px;
 }
 
-img{
+img {
   width: 200px;
   border: 1px solid black;
   border-radius: 5px;
 }
 
-button{
+button {
   display: block;
   width: 200px;
   margin: auto;
