@@ -12,15 +12,31 @@
           <h1>CSS Tips & Tricks</h1>
         </header>
         <main>
+          <h2 id="fixed">Fixed Postioning 'bottom right'</h2>
           <div class="example">
             <h2>Drop Capitals (Drop Caps)</h2>
             <p>Everyone loves drop caps. It reminds us of the traditional printed book, and is a great way to start a page of content. That 1st, large letter really grabs your attention. There’s an easy way to create a drop cap in css, and it’s by using the pseudo element: :first letter. Here’s an example. What this does is set the letter to 3x the size of the other letters. It sets 3px of space around the letter to prevent overlapping, and sets the color of the letter to red.</p>
           </div>
           <div class="example">
             <h2>box-sizing: border-box</h2>
-            <p>This is a favorite among many web designers, because it solves the problem of padding and layout issues. Basically, when you set a box to a specific width, and add padding to it, the padding adds to the size of the box. However, with box-sizing:border-box;, this is negated, and boxes stay the size they are meant to be. These boxes both have a height and width of 100px.</p>
+            <p>This is a favorite among many web designers, because it solves the problem of padding and layout issues. Basically, when you set a box to a specific width, and add padding to it, the padding adds to the size of the box. However, with box-sizing:border-box;, this is negated, and boxes stay the size they are meant to be. These boxes both have a height and width of 100px, and 20px padding.</p>
             <div id="normal"></div>
             <div id="border_box"></div>
+          </div>
+          <div class="example">
+            <h2>Link States</h2>
+            <p>These styles are missed by a lot of designers, and it really causes usability issues with your visitors. The :link pseudo-class controls all links that haven’t been clicked on yet. The :visited pseudo class handles the styling of all of the links you’ve already visited. This tells website visitors where they have already been on your site, and where they have yet to explore.</p>
+            <a href="https://www.webdesignerdepot.com/2016/10/20-essential-css-tricks-every-designer-should-know/">CSS Tricks</a>
+            <a href="https://www.google.com">CSS Tricks</a>
+          </div>
+          <div class="example">
+            <h2 id="override">Overiding All Styles</h2>
+            <p>This should be used sparingly, because if you do this for everything, you’re going to find yourself in trouble in the long run. However, if you want to override another CSS style for a specific element, use !important after the style in your css. For example, if I wanted the H2 headers in a specific section of my site to be red instead of blue, I would use the following CSS: .section h2 {color:red !important;}</p>
+          </div>
+          <div class="example">
+            <h2>Hover Effects</h2>
+            <p>This is used for buttons, text links, bock sections of your site, icons, and more. If you want something to change colors when someone hovers their mouse over it, use the same CSS, but add :hover to it and change the styling. What this does is it changes the color of your h2 tag from black to red when someone hovers over it. The great thing about using :hover is that you don’t have to declare the font-size or weight again, if it isn’t changing. It only changes what you specify. TRANSITION - For hover effects, like with menus or on images in your website, you don’t want colors snapping too quickly to the end result. You ideally want to ease the change in gradually, which is where the transition property comes into play. Example: .entry h2:hover{color:#f00; transition: all 0.5s ease;}</p>
+            <button type="button" name="button">Hover Over Me!</button>
           </div>
         </main>
       </div>

@@ -29,6 +29,7 @@
 .example{
   margin-bottom: 40px;
 }
+
 header{
   margin-bottom: 40px;
   padding: 20px;
@@ -49,8 +50,20 @@ h2{
   margin-bottom: 40px;
 }
 
+/* Absolute Postitioning*/
+
+#fixed{
+  font-size: 1em;
+  position: fixed;
+  bottom: 10px;
+  right: 375px;
+}
+
+/* Drop Capitals */
+
 p{
   line-height: 1.5;
+  margin-bottom: 5px;
 }
 
 p:first-letter{
@@ -59,6 +72,8 @@ p:first-letter{
   float: left;
   line-height: .5;
 }
+
+/* border_box */
 
 #normal{
   background-color: rgb(15, 10, 45);
@@ -78,7 +93,45 @@ p:first-letter{
   box-sizing: border-box;
   display: inline-block;
   height: 100px;
-  margin: 20px; 
+  margin: 20px;
   padding: 20px;
   width: 100px;
+}
+
+/* Link States */
+
+a{
+  margin-left: 250px;
+}
+
+a:link{
+  color: blue;
+}
+
+a:visited{
+  color: purple;
+}
+
+/* Overiding All Styles */
+
+#override{
+  color: darkgreen !important;
+}
+
+/* Hover Over */
+
+button{
+  background-color: rgb(15, 10, 45);
+  border: 2px outset lightgrey;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+button:hover{
+  background-color: yellow;
+  color: black;
+  transition: all .5s ease;
 }
