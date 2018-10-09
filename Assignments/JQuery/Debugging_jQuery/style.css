@@ -1,26 +1,63 @@
-/* Condensed Universal CSS Reset */
 
-* {
-  vertical-align: baseline;
-  font-weight: inherit;
-  font-family: arial;
-  font-style: inherit;
-  font-size: 100%;
-  border: 0 none;
-  outline: 0;
-  padding: 0;
-  margin: 0;
+body
+{
+	background-image: url('dough.jpg');
+	font-family: sans-serif;
 }
 
-/* Stylesheet */
-#wrapper{
-  padding: 20px;
+h2, h1, a
+{
+	color: white;
 }
 
-#page{
-  width: 970px;
-  padding: 40px;
-  background-color: rgb(255, 180, 30);
-  border: 1px solid black;
-  border-radius: 5px;
+#wrapper
+{
+	background-color: rgba(2,2,2, .5);
+	width: 1200px;
+	margin: 0px auto;
+}
+
+#top_headers, #survey, ul, h3
+{
+	display: inline-block;
+}
+
+li
+{
+	max-width: 350px;
+}
+
+#left_content
+{
+	width: 650px;
+	display: inline-block;
+	background-color: rgba(220, 0, 0, .6);
+	height: 520px;
+	vertical-align: top;
+	margin-left: 40px;
+}
+
+#right_content
+{
+	width: 450px;
+	display: inline-block;
+	background-color: rgba(0, 220, 0, .6);
+	height: 520px;
+	vertical-align: top;
+}
+
+.box
+{
+	vertical-align: top;
+	display: inline-block;
+	width: 300px;
+	padding: 10px;
+}
+
+img
+{
+	width: 310px;
+	height: 200px;
+	display: block;
+	margin: 5px auto;
 }
