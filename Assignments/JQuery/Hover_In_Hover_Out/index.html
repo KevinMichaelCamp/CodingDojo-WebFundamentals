@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Hover in/Hover out</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-    </script>
-    <script>
-      $(document).ready(function(){
-        $('img').hover(function(){
+
+<head>
+  <meta charset="utf-8">
+  <title>Hover in/Hover out</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  </script>
+  <script>
+    $(document).ready(function() {
+      $('img').hover(function() {
           $(this).attr('temp', $(this).attr('src'));
-          $(this).attr('src', $(this).attr('data-alt-src'));},
-          function(){
-            $(this).attr('src', $(this).attr('temp'));
-          });
-      });
-    </script>
-  </head>
-  <body>
-    <div id="wrapper">
-      <div class="row">
-        <img src="img/HTML1.png" data-alt-src="img/HTML2.png" alt="Image Unavailable">
-        <img src="img/CSS1.png" data-alt-src="img/CSS2.jpg" alt="Image Unavailable">
-        <img src="img/jQuery1.png" data-alt-src="img/jQuery2.png" alt="Image Unavailable">
-        <img src="img/JavaScript1.png" data-alt-src="img/JavaScript2.png" alt="Image Unavailable">
-      </div>
-      <div class="row">
-        <img src="img/Python1.png" data-alt-src="img/Python2.png" alt="Image Unavailable">
-        <img src="img/Ruby1.png" data-alt-src="img/Ruby2.png" alt="Image Unavailable">
-        <img src="img/Angular1.png" data-alt-src="img/Angular2.png" alt="Image Unavailable">
-        <img src="img/MongoDB1.jpg" data-alt-src="img/MongoDB2.png" alt="Image Unavailable">
-      </div>
+          $(this).attr('src', $(this).attr('data-alt-src'));
+        },
+        function() {
+          $(this).attr('src', $(this).attr('temp'));
+        });
+    });
+  </script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div class="row">
+      <img src="img/HTML1.png" data-alt-src="img/HTML2.png" alt="Image Unavailable">
+      <img src="img/CSS1.png" data-alt-src="img/CSS2.jpg" alt="Image Unavailable">
+      <img src="img/jQuery1.png" data-alt-src="img/jQuery2.png" alt="Image Unavailable">
+      <img src="img/JavaScript1.png" data-alt-src="img/JavaScript2.png" alt="Image Unavailable">
     </div>
-  </body>
+    <div class="row">
+      <img src="img/Python1.png" data-alt-src="img/Python2.png" alt="Image Unavailable">
+      <img src="img/Ruby1.png" data-alt-src="img/Ruby2.png" alt="Image Unavailable">
+      <img src="img/Angular1.png" data-alt-src="img/Angular2.png" alt="Image Unavailable">
+      <img src="img/MongoDB1.jpg" data-alt-src="img/MongoDB2.png" alt="Image Unavailable">
+    </div>
+  </div>
+</body>
+
 </html>
