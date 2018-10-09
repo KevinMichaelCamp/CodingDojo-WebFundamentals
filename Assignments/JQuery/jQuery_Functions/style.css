@@ -13,11 +13,12 @@
 }
 
 /* Stylesheet */
-#wrapper{
+
+#wrapper {
   padding: 20px;
 }
 
-#page{
+#page {
   width: 970px;
   padding: 40px;
   background-color: rgb(255, 180, 30);
@@ -25,53 +26,98 @@
   border-radius: 5px;
 }
 
-.function{
+.function {
   margin-bottom: 80px;
 }
-button{
+
+button {
   padding: 20px;
   color: white;
   background-color: rgb(15, 10, 45);
   border: 3px outset lightgrey;
   border-radius: 5px;
 }
-h1{
+
+h1 {
   display: inline-block;
-  margin:0 20px 0 300px;
+  vertical-align: top;
+  margin: 0 20px 0 300px;
   font-size: 2em;
   font-weight: bold;
 }
-p{
-  display:inline-block;
+
+p {
+  display: inline-block;
+  vertical-align: top;
   font-weight: bold;
   margin: 0 0 10px 325px;
 }
-#hidden{
+
+#hidden {
   display: none;
 }
-ul{
+
+ul {
   list-style-type: none;
   margin-bottom: 40px;
 }
-#slideDown_menu{
+
+#slideDown_menu {
   display: none;
 }
-#fadeIn_h1{
+
+#fadeIn_h1 {
   display: none;
   margin: 10px 0 10px 475px;
 }
-#fadeOut_h1{
+
+#fadeOut_h1 {
   margin: 10px 0 10px 475px;
 }
-.green{
+
+.green {
   background-color: rgb(15, 175, 45);
 }
-#after_p{
+
+#after_p {
   margin-right: 20px;
 }
-#appended_p{
+
+#appended_p {
   margin: 20px 0 40px 65px;
 }
-#htmled_p{
+
+#htmled_p {
   margin: 0 0 40px 40px;
+}
+
+.input {
+  display: inline-block;
+  width: 200px;
+}
+
+input {
+  width: 150px;
+}
+
+#val_output {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 20px 0;
+  width: 250px;
+}
+
+.val_h1 {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 20px 0 225px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.val_p {
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bold;
+  margin: 0 0 10px 300px;
 }

@@ -1,95 +1,107 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>jQuery Functions</title>
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-    </script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $('#click').click(function(){
-          alert("This is an example of the .click() jQuery function");
-        })
-        $('#hide').click(function(){
-          $('#hide').hide('slow');
-        })
-        $('#show').click(function(){
-          $('#hidden').show('slow');
-        })
-        $('#toggle').click(function(){
-          $('#toggle_p').toggle('slow');
-        })
-        $('#slideDown').click(function(){
-          $('#slideDown_menu').slideDown('slow');
-        })
-        $('#slideUp').click(function(){
-          $('#slideUp_menu').slideUp('slow');
-        })
-        $('#slideToggle').click(function(){
-          $('#slideToggle_menu').slideToggle('slow');
-        })
-        $('#fadeIn').click(function(){
-          $('#fadeIn_h1').fadeIn('slow');
-        })
-        $('#fadeOut').click(function(){
-          $('#fadeOut_h1').fadeOut('slow');
-        })
-        $('#addClass').click(function(){
-          $('#addClass').addClass('green');
-        })
-        $('#before').click(function(){
-          $('#before_p').before("This is text before p element ");
-        })
-        $('#after').click(function(){
-          $('#after_p').after("This is text after p element ");
-        })
-        $('#append').click(function(){
-          $('#append_p').append("<p id='appended_p'>This is an appended paragraph</p>");
-        })
-        $('#html').click(function(){
-          $('#html_p').html("<p id='htmled_p'>This is an html() overwrite paragraph</p>");
-        })
-        $('#text').click(function(){
-          $('#text_p').text("You have used .text() as a setter, it may also be used as a getter");
-        })
-      });
-    </script>
-  </head>
-  <body>
-    <div id="wrapper">
-      <div id="page">
-        <div class="function">
-          <button id="click" type="button" name="button">Click Me!</button>
-          <h1>.click()</h1>
-          <p>Click the button to trigger the .click() event</p>
-        </div>
-        <div class="function">
-          <button id="hide" type="button" name="button">Click Me!</button>
-          <h1>.hide('slow')</h1>
-          <p>Click the button to trigger the .hide('slow') event</p>
-        </div>
-        <div class="function">
-          <button id="show" type="button" name="button">Click Me!</button>
-          <h1>.show('slow')</h1>
-          <p>Click the button to trigger the .show('slow') event</p>
-          <p id="hidden">Here's the hidden element!</p>
-        </div>
-        <div class="function">
-          <button id="toggle" type="button" name="button">Click Me!</button>
-          <h1>.toggle('slow')</h1>
-          <p>Click the button to trigger the .toggle('slow') event</p>
-          <p id="toggle_p">Here's the toggle element!</p>
-        </div>
-        <div class="function">
-          <button id="slideDown" type="button" name="button">Click Me!</button>
-          <h1>.slide_Down('slow')</h1>
-          <p>Click the button to trigger the .slide_Down('slow') event</p>
-          <ul id="slideDown_menu">
-            <li>Here is</li>
-            <li>the slideDown</li>
-            <li>menu</li>
-          </ul>
+
+<head>
+  <meta charset="utf-8">
+  <title>jQuery Functions</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  </script>
+  <script>
+    $(document).ready(function() {
+      $('#click').click(function() {
+        alert("This is an example of the .click() jQuery function");
+      })
+      $('#hide').click(function() {
+        $('#hide').hide('slow');
+      })
+      $('#show').click(function() {
+        $('#hidden').show('slow');
+      })
+      $('#toggle').click(function() {
+        $('#toggle_p').toggle('slow');
+      })
+      $('#slideDown').click(function() {
+        $('#slideDown_menu').slideDown('slow');
+      })
+      $('#slideUp').click(function() {
+        $('#slideUp_menu').slideUp('slow');
+      })
+      $('#slideToggle').click(function() {
+        $('#slideToggle_menu').slideToggle('slow');
+      })
+      $('#fadeIn').click(function() {
+        $('#fadeIn_h1').fadeIn('slow');
+      })
+      $('#fadeOut').click(function() {
+        $('#fadeOut_h1').fadeOut('slow');
+      })
+      $('#addClass').click(function() {
+        $('#addClass').addClass('green');
+      })
+      $('#before').click(function() {
+        $('#before_p').before("This is text before p element ");
+      })
+      $('#after').click(function() {
+        $('#after_p').after("This is text after p element ");
+      })
+      $('#append').click(function() {
+        $('#append_p').append("<p id='appended_p'>This is an appended paragraph</p>");
+      })
+      $('#html').click(function() {
+        $('#html_p').html("<p id='htmled_p'>This is an html() overwrite paragraph</p>");
+      })
+      $('#text').click(function() {
+        $('#text_p').text("You have used .text() as a setter, it may also be used as a getter");
+      })
+      $('#val_input').keyup(function() {
+        var value = $(this).val();
+        $('#val_output').text(value);
+      })
+      $('#attr_input').change(function() {
+        var $input = $(this);
+        $('#attr_output').html(".attr('checked'): " + $input.attr("checked"));
+        $('#attr_output').append(".prop('checked'): " + $input.prop("checked"));
+        $('#attr_output').append(".is(':checked'): " + $input.is(":checked"));
+      })
+    });
+  </script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="page">
+      <div class="function">
+        <button id="click" type="button" name="button">Click Me!</button>
+        <h1>.click()</h1>
+        <p>Click the button to trigger the .click() event</p>
+      </div>
+      <div class="function">
+        <button id="hide" type="button" name="button">Click Me!</button>
+        <h1>.hide('slow')</h1>
+        <p>Click the button to trigger the .hide('slow') event</p>
+      </div>
+      <div class="function">
+        <button id="show" type="button" name="button">Click Me!</button>
+        <h1>.show('slow')</h1>
+        <p>Click the button to trigger the .show('slow') event</p>
+        <p id="hidden">Here's the hidden element!</p>
+      </div>
+      <div class="function">
+        <button id="toggle" type="button" name="button">Click Me!</button>
+        <h1>.toggle('slow')</h1>
+        <p>Click the button to trigger the .toggle('slow') event</p>
+        <p id="toggle_p">Here's the toggle element!</p>
+      </div>
+      <div class="function">
+        <button id="slideDown" type="button" name="button">Click Me!</button>
+        <h1>.slide_Down('slow')</h1>
+        <p>Click the button to trigger the .slide_Down('slow') event</p>
+        <ul id="slideDown_menu">
+          <li>Here is</li>
+          <li>the slideDown</li>
+          <li>menu</li>
+        </ul>
         <div class="function">
           <button id="slideUp" type="button" name="button">Click Me!</button>
           <h1>.slide_Up('slow')</h1>
@@ -143,11 +155,6 @@
           <p id="append_p">Click the button to trigger the .append() event</p>
         </div>
         <div class="function">
-          <button id="append" type="button" name="button">Click Me!</button>
-          <h1>.append()</h1>
-          <p id="append_p">Click the button to trigger the .append() event</p>
-        </div>
-        <div class="function">
           <button id="html" type="button" name="button">Click Me!</button>
           <h1>.html()</h1>
           <p id="html_p">Click the button to trigger the .html() event</p>
@@ -158,14 +165,26 @@
           <p id="text_p">Click the button to trigger the .text() event</p>
         </div>
         <div class="function">
-          <button id="val" type="button" name="button">Click Me!</button>
-          <h1>.val()</h1>
-          <p id="text_p">Click the button to trigger the .val() event</p>
-          <label>Type Here:</label>
-          <input type="text" name="val_input" value="">
-          <p id="val_output"></p>
+          <div class="input">
+            <label>Type Here:</label>
+            <input type="text" id="val_input" name="val_input" value="">
+            <p id="val_output"></p>
+          </div>
+          <h1 class="val_h1">.val()</h1>
+          <p class="val_p">Type in input to trigger the .val() event</p>
+        </div>
+        <div class="function">
+          <div class="input">
+            <label>Do you like jQuery?:</label>
+            <input type="checkbox" id="attr_input" name="attr_input" value="">
+            <p id="attr_output"></p>
+          </div>
+          <h1 class="val_h1">.val()</h1>
+          <p class="val_p">Check the box to trigger the .attr() event</p>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
