@@ -9,37 +9,70 @@
     <script>
       $(document).ready(function(){
 
-      });
+        $('input').on('change','input', function(){
+          $(this).attr("changed", true);
+          $(this).attr("value", $(this).val());
+        });
+
+        $('form').submit(function(){
+          return false;
+        });
+
+        $('button').click(function(){
+          var edited = true;
+          $('#input_table td').children('input').each(function(){
+            if($(this).attr("changed") === "false"){
+              edited = false;
+            }
+          });
+
+          if(edited === true){
+            $('#user_table tbody').append("<tr></tr>");
+            $('#input_table td').children('input').each(function(){
+              console.log($(this).attr('value'));
+              $('#user_table tbody tr:last-of-type').append("<td>" + $(this).attr('value') + "</td>");
+            })
+          }
+
+          else{
+            alert("All fields must be completed!")
+          }
+
+        })
+      })
     </script>
   </head>
   <body>
     <div id="wrapper">
       <table id="user_table">
         <thead>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Email Address</th>
-          <th>Contact Number</th>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email Address</th>
+            <th>Contact Number</th>
+          </tr>
         </thead>
+        <tbody></tbody>
       </table>
       <h1>Add User</h1>
-      <form action="process.php" method="post">
+      <form action="index.html" method="post">
         <table id="input_table">
           <tr>
             <td><label>First Name:</label></td>
-            <td><input type="text" value="First Name"></td>
-          <tr>
+            <td><input type="text" placeholder="First Name"></td>
+          </tr>
           <tr>
             <td><label>Last Name:</label></td>
-            <td><input type="text" value="Last Name"></td>
+            <td><input type="text" placeholder="Last Name"></td>
           </tr>
           <tr>
             <td><label>Email Address:</label></td>
-            <td><input type="email" value="Email Address"></td>
+            <td><input type="email" placeholder="Email Address"></td>
           </tr>
           <tr>
             <td><label>Contact Number:</label></td>
-            <td><input type="text" value="Contact Number"></td>
+            <td><input type="text" placeholder="Contact Number"></td>
           </tr>
         </table>
         <button type="submit">Add User</button>
