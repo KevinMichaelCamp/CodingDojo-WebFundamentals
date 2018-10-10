@@ -13,14 +13,71 @@
 }
 
 /* Stylesheet */
-#wrapper{
-  padding: 20px;
-}
 
-#page{
-  width: 970px;
-  padding: 40px;
+#wrapper{
   background-color: rgb(255, 180, 30);
   border: 1px solid black;
   border-radius: 5px;
+  margin: 20px;
+  padding: 40px;
+  width: 1000px;
+}
+
+h1{
+  background-color: rgb(15, 10, 45);
+  border: 3px outset lightgrey;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0 0 40px 350px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+#input{
+  /* border: 1px dotted black; */
+  display: inline-block;
+  width: 350px;
+}
+
+table{
+  border-collapse:separate;
+  border-spacing:5px;
+  margin-bottom: 20px;
+}
+
+tr{
+  background-color: rgb(15, 10, 45);
+  color: white;
+}
+
+td{
+  border: 1px outset lightgrey;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#descr{
+  display: inline-block;
+  margin: 0 0 10px 5px;
+  font-weight: bold;
+}
+
+textarea{
+  margin: 0 0 20px 5px;
+  border: 1px outset lightgrey;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button{
+  background-color: rgb(15, 10, 45);
+  border: 1px outset lightgrey;
+  border-radius: 5px;
+  color: white;
+  margin-left: 5px;
+  padding: 5px;
 }

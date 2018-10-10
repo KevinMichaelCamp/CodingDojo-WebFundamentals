@@ -1,10 +1,52 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Contact Cards</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  </script>
+  <script>
+    $(document).ready(function() {
+
+      $('form').submit(function() {
+        return false;
+      })
+
+      $('button').hover(function() {
+        $('button').css('background-color', 'rgb(150, 20, 35)')
+      }, function() {
+        $('button').css('background-color', 'rgb(15, 10, 45)')
+      });
+
+    })
+  </script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1>Contact Cards</h1>
+    <div id="input">
+      <form action="index.html" method="post">
+        <table>
+          <tbody>
+            <tr>
+              <td><label>First Name:</label></td>
+              <td><input type="text" placeholder="First Name"> </td>
+            </tr>
+            <tr>
+              <td><label>Last Name:</label></td>
+              <td><input type="text" placeholder="Last Name"> </td>
+            </tr>
+          </tbody>
+        </table>
+        <label id="descr">Description:</label>
+        <textarea rows="8" cols="35" placeholder="Enter description here"></textarea>
+        <button type="submit">Add User</button>
+      </form>
+    </div>
+  </div>
+</body>
+
 </html>
