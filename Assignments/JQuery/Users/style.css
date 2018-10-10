@@ -13,14 +13,56 @@
 }
 
 /* Stylesheet */
-#wrapper{
-  padding: 20px;
-}
 
-#page{
+#wrapper{
   width: 970px;
   padding: 40px;
+  margin: 20px;
   background-color: rgb(255, 180, 30);
   border: 1px solid black;
+  border-radius: 5px;
+}
+
+#user_table{
+  width: 840px;
+  display: block;
+  margin: 0 auto 80px auto;
+  border-collapse: collapse;
+}
+
+#user_table th, #user_table td{
+  width: 200px;
+  padding: 5px;
+  color: white;
+  background-color: rgb(15, 10, 45);
+  border: 1px solid white;
+}
+
+h1{
+  margin: 0 0 40px 65px;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#input_table{
+  margin-left: 65px;
+}
+
+#input_table td{
+  font-weight: bold;
+  padding: 0 5px 5px 0;
+}
+
+#input_table tr td:first-child{
+  text-align: right;
+}
+
+button{
+  margin: 20px 0 0 65px;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(15, 10, 45);
   border-radius: 5px;
 }
