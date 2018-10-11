@@ -22,21 +22,21 @@
         $('button').css('background-color', 'rgb(15, 10, 45)')
       });
 
-      $('form').on('click', 'button', function(){
+      $('form').on('click', 'button', function() {
         var name = $('#first_name').val() + " " + $('#last_name').val();
         description = $('#description').val();
         console.log(name);
         console.log(description);
 
-        if(name != " "){
+        if (name != " ") {
           $('#main').append("<div class='card'></div>");
           $('.card:last-of-type').append("<h2>" + name + "</h2>");
-          $('.card:last-of-type').append("<button id='btn'>Click for description!" )
+          $('.card:last-of-type').append("<button id='btn'>Click for description!")
 
         }
       })
 
-      $(document).on('click', '#btn', function(){
+      $(document).on('click', '#btn', function() {
         $('.card').html("<p>" + description + "</p>");
       })
 

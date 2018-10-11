@@ -14,7 +14,7 @@
 
 /* Stylesheet */
 
-#wrapper{
+#wrapper {
   background-color: rgb(255, 180, 30);
   border: 1px solid black;
   border-radius: 5px;
@@ -23,7 +23,7 @@
   width: 1000px;
 }
 
-h1{
+h1 {
   background-color: rgb(15, 10, 45);
   border: 3px outset white;
   border-radius: 5px;
@@ -37,44 +37,44 @@ h1{
   width: 250px;
 }
 
-#input{
+#input {
   /* border: 1px dotted black; */
   display: inline-block;
   vertical-align: top;
   width: 350px;
 }
 
-table{
-  border-collapse:separate;
-  border-spacing:5px;
+table {
+  border-collapse: separate;
+  border-spacing: 5px;
   margin-bottom: 60px;
 }
 
-tr{
+tr {
   background-color: rgb(15, 10, 45);
   color: white;
 }
 
-td{
+td {
   border: 1px outset white;
   border-radius: 5px;
   padding: 5px;
 }
 
-#descr{
+#descr {
   display: inline-block;
   margin: 0 0 20px 5px;
   font-weight: bold;
 }
 
-textarea{
+textarea {
   margin: 0 0 40px 5px;
   border: 1px outset darkgrey;
   border-radius: 5px;
   padding: 5px;
 }
 
-button{
+button {
   background-color: rgb(15, 10, 45);
   border: 1px outset white;
   border-radius: 5px;
@@ -83,7 +83,7 @@ button{
   padding: 5px;
 }
 
-#main{
+#main {
   /* border: 1px dotted black; */
   display: inline-block;
   height: 675px;
@@ -93,7 +93,7 @@ button{
   vertical-align: top;
 }
 
-.card{
+.card {
   background-color: lightgrey;
   border: 3px outset white;
   border-radius: 5px;
@@ -104,13 +104,13 @@ button{
   width: 425px;
 }
 
-h2{
+h2 {
   font-size: 2.5em;
   font-weight: bold;
   margin: 40px;
 }
 
-p{
+p {
   font-size: 1em;
   font-weight: bold;
   margin: 20px;
