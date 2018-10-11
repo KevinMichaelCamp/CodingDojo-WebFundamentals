@@ -25,7 +25,7 @@
 
 h1{
   background-color: rgb(15, 10, 45);
-  border: 3px outset lightgrey;
+  border: 3px outset white;
   border-radius: 5px;
   color: white;
   display: inline-block;
@@ -40,13 +40,14 @@ h1{
 #input{
   /* border: 1px dotted black; */
   display: inline-block;
+  vertical-align: top;
   width: 350px;
 }
 
 table{
   border-collapse:separate;
   border-spacing:5px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 tr{
@@ -55,29 +56,62 @@ tr{
 }
 
 td{
-  border: 1px outset lightgrey;
+  border: 1px outset white;
   border-radius: 5px;
   padding: 5px;
 }
 
 #descr{
   display: inline-block;
-  margin: 0 0 10px 5px;
+  margin: 0 0 20px 5px;
   font-weight: bold;
 }
 
 textarea{
-  margin: 0 0 20px 5px;
-  border: 1px outset lightgrey;
+  margin: 0 0 40px 5px;
+  border: 1px outset darkgrey;
   border-radius: 5px;
   padding: 5px;
 }
 
 button{
   background-color: rgb(15, 10, 45);
-  border: 1px outset lightgrey;
+  border: 1px outset white;
   border-radius: 5px;
   color: white;
   margin-left: 5px;
   padding: 5px;
+}
+
+#main{
+  /* border: 1px dotted black; */
+  display: inline-block;
+  height: 675px;
+  margin-left: 125px;
+  overflow-y: scroll;
+  width: 500px;
+  vertical-align: top;
+}
+
+.card{
+  background-color: lightgrey;
+  border: 3px outset white;
+  border-radius: 5px;
+  height: 200px;
+  margin: 20px 0 20px 25px;
+  padding: 5px;
+  text-align: center;
+  width: 425px;
+}
+
+h2{
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 40px;
+}
+
+p{
+  font-size: 1em;
+  font-weight: bold;
+  margin: 20px;
 }

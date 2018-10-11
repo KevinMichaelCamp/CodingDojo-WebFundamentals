@@ -10,6 +10,8 @@
   <script>
     $(document).ready(function() {
 
+      var description;
+
       $('form').submit(function() {
         return false;
       })
@@ -19,6 +21,24 @@
       }, function() {
         $('button').css('background-color', 'rgb(15, 10, 45)')
       });
+
+      $('form').on('click', 'button', function(){
+        var name = $('#first_name').val() + " " + $('#last_name').val();
+        description = $('#description').val();
+        console.log(name);
+        console.log(description);
+
+        if(name != " "){
+          $('#main').append("<div class='card'></div>");
+          $('.card:last-of-type').append("<h2>" + name + "</h2>");
+          $('.card:last-of-type').append("<button id='btn'>Click for description!" )
+
+        }
+      })
+
+      $(document).on('click', '#btn', function(){
+        $('.card').html("<p>" + description + "</p>");
+      })
 
     })
   </script>
@@ -33,19 +53,20 @@
           <tbody>
             <tr>
               <td><label>First Name:</label></td>
-              <td><input type="text" placeholder="First Name"> </td>
+              <td><input id="first_name" type="text" placeholder="First Name"> </td>
             </tr>
             <tr>
               <td><label>Last Name:</label></td>
-              <td><input type="text" placeholder="Last Name"> </td>
+              <td><input id="last_name" type="text" placeholder="Last Name"> </td>
             </tr>
           </tbody>
         </table>
         <label id="descr">Description:</label>
-        <textarea rows="8" cols="35" placeholder="Enter description here"></textarea>
+        <textarea id="description" rows="10" cols="35" placeholder="Enter description here"></textarea>
         <button type="submit">Add User</button>
       </form>
     </div>
+    <div id="main"></div>
   </div>
 </body>
 
