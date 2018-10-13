@@ -13,3 +13,12 @@
 }
 
 /* Stylesheet */
+
+#wrapper {
+  width: 970px;
+  padding: 40px;
+  margin: 20px;
+  background-color: rgb(255, 180, 30);
+  border: 1px solid black;
+  border-radius: 5px;
+}
