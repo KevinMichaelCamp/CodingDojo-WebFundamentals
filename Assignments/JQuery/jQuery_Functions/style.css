@@ -19,7 +19,7 @@
   padding: 40px;
   margin: 20px;
   background-color: rgb(255, 180, 30);
-  border: 1px solid black;
+  border: 3px outset black;
   border-radius: 5px;
 }
 

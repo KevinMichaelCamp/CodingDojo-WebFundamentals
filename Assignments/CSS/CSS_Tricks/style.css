@@ -34,14 +34,20 @@ header{
   margin-bottom: 40px;
   padding: 20px;
   color: white;
-  background-color: rgb(15, 10, 45);
-  border: 1px solid lightgrey;
+  background: -webkit-linear-gradient(-45deg, rgb(0,31,63) 0%,rgb(255,133,27) 60%,rgb(255,220,0) 100%);
+  border: 3px outset #dddddd;
   border-radius: 5px;
 }
 
 h1{
   font-size: 3em;
   font-weight: bold;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 
 h2{
@@ -56,7 +62,7 @@ h2{
   font-size: 1em;
   position: fixed;
   bottom: 10px;
-  right: 375px;
+  right: 10px;
 }
 
 /* Drop Capitals */
@@ -134,4 +140,24 @@ button:hover{
   background-color: yellow;
   color: black;
   transition: all .5s ease;
+}
+
+#outline{
+  width: 875px;
+  padding: 40px;
+  background: -webkit-linear-gradient(-45deg, rgb(0,31,63) 0%,rgb(255,133,27) 60%,rgb(255,220,0) 100%);
+  border: 3px outset #dddddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#outline h1{
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
