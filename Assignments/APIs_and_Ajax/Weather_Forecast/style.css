@@ -14,7 +14,7 @@
 
 /* Stylesheet */
 
-#wrapper{
+#wrapper {
   background: -webkit-linear-gradient(-45deg, rgb(0, 31, 63) 0%, rgb(255, 133, 27) 60%, rgb(255, 220, 0) 100%);
   border: 3px outset #dddddd;
   border-radius: 5px;
@@ -23,18 +23,21 @@
   padding: 20px;
   width: 1000px;
 }
-h1{
+
+h1 {
   color: white;
   font-size: 3em;
   font-weight: bold;
   text-align: center;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-input{
+
+input {
   margin: 60px;
   padding: 10px;
 }
-button{
+
+button {
   border: 3px inset darkgrey;
   border-radius: 5px;
   padding: 10px;
