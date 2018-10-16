@@ -19,7 +19,6 @@
   border: 3px outset #dddddd;
   border-radius: 5px;
   color: white;
-  height: 1000px;
   margin: 20px;
   padding: 20px;
   text-align: center;
@@ -33,4 +32,35 @@ h1{
     1px -1px 0 #000,
     -1px 1px 0 #000,
      1px 1px 0 #000;
+}
+#pokemon{
+  width: 750px;
+}
+#stats{
+  border: 3px outset #dddddd;
+  border-radius: 5px;
+  height: 500px;
+  padding: 20px;
+  position: fixed;
+  left: 775px;
+  top: 250px;
+  width: 225px;
+}
+h2{
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  text-transform: capitalize;
+}
+#stats img{
+  width: 200px;
+}
+li{
+  margin-bottom: 10px;
+  text-transform: capitalize;
 }
