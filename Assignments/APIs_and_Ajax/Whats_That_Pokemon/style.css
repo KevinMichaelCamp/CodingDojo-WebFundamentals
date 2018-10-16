@@ -14,8 +14,8 @@
 
 /* Stylesheet */
 
-#wrapper{
-  background: -webkit-linear-gradient(-45deg, rgb(0,31,63) 0%,rgb(255,133,27) 60%,rgb(255,220,0) 100%);
+#wrapper {
+  background: -webkit-linear-gradient(-45deg, rgb(0, 31, 63) 0%, rgb(255, 133, 27) 60%, rgb(255, 220, 0) 100%);
   border: 3px outset #dddddd;
   border-radius: 5px;
   color: white;
@@ -24,19 +24,18 @@
   text-align: center;
   width: 1000px;
 }
-h1{
+
+h1 {
   font-size: 2em;
   font-weight: bold;
-  text-shadow:
-   -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-#pokemon{
+
+#pokemon {
   width: 750px;
 }
-#stats{
+
+#stats {
   border: 3px outset #dddddd;
   border-radius: 5px;
   height: 500px;
@@ -46,21 +45,20 @@ h1{
   top: 250px;
   width: 225px;
 }
-h2{
+
+h2 {
   font-size: 1.25em;
   font-weight: bold;
   margin-bottom: 20px;
-  text-shadow:
-   -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   text-transform: capitalize;
 }
-#stats img{
+
+#stats img {
   width: 200px;
 }
-li{
+
+li {
   margin-bottom: 10px;
   text-transform: capitalize;
 }
