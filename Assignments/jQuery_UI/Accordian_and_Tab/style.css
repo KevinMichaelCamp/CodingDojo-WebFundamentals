@@ -14,15 +14,17 @@
 
 /* Stylesheet */
 
-#accordion{
+#accordion {
   margin: 40px;
   width: 500px;
 }
-#tabs{
+
+#tabs {
   margin: 0 0 40px 40px;
   width: 500px;
 }
-#menu{
+
+#menu {
   margin: 0 0 40px 40px;
   width: 500px;
 }
