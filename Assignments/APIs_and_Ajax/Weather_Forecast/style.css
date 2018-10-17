@@ -18,9 +18,10 @@
   background: -webkit-linear-gradient(-45deg, rgb(0, 31, 63) 0%, rgb(255, 133, 27) 60%, rgb(255, 220, 0) 100%);
   border: 3px outset #dddddd;
   border-radius: 5px;
-  height: 1000px;
+  height: 500px;
   margin: 20px;
   padding: 20px;
+  text-align: center;
   width: 1000px;
 }
 
@@ -33,7 +34,7 @@ h1 {
 }
 
 input {
-  margin: 60px;
+  margin: 100px 0;
   padding: 10px;
 }
 
@@ -41,4 +42,16 @@ button {
   border: 3px inset darkgrey;
   border-radius: 5px;
   padding: 10px;
+}
+#results {
+  border: 3px outset #dddddd;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+h2{
+  padding: 20px;
 }
