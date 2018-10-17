@@ -4,16 +4,18 @@
     <meta charset="utf-8">
     <title>Other jQuery Libraries</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https:/ajax.googleapis.com/ajax/jquery/libs/3.3.1/jquery.min.js"></script>
+    <script src="https:/ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="fancyInput.js"></script>
     <script>
       $(document).ready(function(){
-
+        $('div :input').fancyInput();
       })
     </script>
   </head>
   <body>
     <div id="wrapper">
-
+      <h1>Other jQuery Libraries</h1>
+      <div><input type="text" placeholder="Enter Name..."></div>
     </div>
   </body>
 </html>
