@@ -4,16 +4,21 @@
     <meta charset="utf-8">
     <title>Date Validations</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-      $(document).ready(function(){
-
-      })
-    </script>
+    <link rel="stylesheet" href="../jQueryUI_Dark/jquery-ui.css">
+    <script src="../jQueryUI_Dark/external/jquery/jquery.js"></script>
+    <script src="../jQueryUI_Dark/jquery-ui.js"></script>
+    <script src="script.js"></script>
   </head>
   <body>
     <div id="wrapper">
-
+      <h1>Welcome to Coding Dojo Plan-A-Cruise</h1>
+      <form action="index.html" method="post">
+        <input id="from" type="text" placeholder="From Date">
+        <input id="to" type="text" placeholder="To Date">
+        <input id="name" placeholder="Enter Name" type="text">
+        <button type="submit">Check Dates!</button>
+      </form>
+      <div id="dialog" title="Booking Trip"></div>
     </div>
   </body>
 </html>

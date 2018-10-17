@@ -15,10 +15,32 @@
 /* Stylesheet */
 
 #wrapper {
-  width: 970px;
-  padding: 40px;
-  margin: 20px;
-  background-color: rgb(255, 180, 30);
-  border: 1px solid black;
+  background: -webkit-linear-gradient(-45deg, rgb(0, 31, 63) 0%, rgb(255, 133, 27) 60%, rgb(255, 220, 0) 100%);
+  border: 3px outset #dddddd;
   border-radius: 5px;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  width: 1000px;
+}
+h1{
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+form{
+   width:250px;
+}
+input{
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+}
+button{
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 10px;
 }
