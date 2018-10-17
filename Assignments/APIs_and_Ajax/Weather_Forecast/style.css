@@ -43,6 +43,7 @@ button {
   border-radius: 5px;
   padding: 10px;
 }
+
 #results {
   border: 3px outset #dddddd;
   border-radius: 5px;
@@ -52,6 +53,7 @@ button {
   font-weight: bold;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-h2{
+
+h2 {
   padding: 20px;
 }
