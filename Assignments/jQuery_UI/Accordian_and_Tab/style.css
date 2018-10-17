@@ -13,3 +13,16 @@
 }
 
 /* Stylesheet */
+
+#accordion{
+  margin: 40px;
+  width: 500px;
+}
+#tabs{
+  margin: 0 0 40px 40px;
+  width: 500px;
+}
+#menu{
+  margin: 0 0 40px 40px;
+  width: 500px;
+}
