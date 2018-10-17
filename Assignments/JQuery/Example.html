@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $('h4').click(function(){
-          alert('Hello!');
-        });
-        $('button').click(function(){
-          $('#myParagraph').text('see how I .text() works as a setter!');
-        });
-        $('button').click(function(){
-          $(this).siblings().children().children().text('Michael Choi was here!');
-        });
-      });
-    </script>
-    <title>jQuery Example</title>
-  </head>
-  <body>
-    <div>
-       <button>Click me for crazy things!</button>
-       <ul>
-           <li><h3>Tiger Woods</h3></li>
-           <li><h3>Phil Mickelson</h3></li>
-           <li><h3>Ben Hogan</h3></li>
-           <li><h3>Jack Nicklaus</h3></li>
-           <li><h3>Gary Player</h3></li>
-           <li><h3>Rory Mcilroy</h3></li>
-       </ul>
-    </div>
 
-    <h4>Click Me!</h4>
-    <h4>Click Me Too!</h4>
-    <p id='myParagraph'> This is my paragraph! </p>
-    <button> Click me to change the paragraph! </button>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('h4').click(function() {
+        alert('Hello!');
+      });
+      $('button').click(function() {
+        $('#myParagraph').text('see how I .text() works as a setter!');
+      });
+      $('button').click(function() {
+        $(this).siblings().children().children().text('Michael Choi was here!');
+      });
+    });
+  </script>
+  <title>jQuery Example</title>
+</head>
+
+<body>
+  <div>
+    <button>Click me for crazy things!</button>
+    <ul>
+      <li>
+        <h3>Tiger Woods</h3></li>
+      <li>
+        <h3>Phil Mickelson</h3></li>
+      <li>
+        <h3>Ben Hogan</h3></li>
+      <li>
+        <h3>Jack Nicklaus</h3></li>
+      <li>
+        <h3>Gary Player</h3></li>
+      <li>
+        <h3>Rory Mcilroy</h3></li>
+    </ul>
+  </div>
+
+  <h4>Click Me!</h4>
+  <h4>Click Me Too!</h4>
+  <p id='myParagraph'> This is my paragraph! </p>
+  <button> Click me to change the paragraph! </button>
+</body>
+
 </html>
