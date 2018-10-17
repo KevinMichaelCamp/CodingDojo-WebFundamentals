@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Sortable Ninja</title>
-    <link rel="stylesheet" href="../jQueryUI_Dark/jquery-ui.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="../jQueryUI_Dark/external/jquery/jquery.js"></script>
-    <script src="../jQueryUI_Dark/jquery-ui.js"></script>
-    <script>
-      $(document).ready(function(){
-        $("#sortable").sortable({opacity: .5});
-        $("#sortable").disableSelection();
-      })
-    </script>
-  </head>
-  <body>
-    <div id="wrapper">
-      <ul id="sortable">
-        <li class="ui-state-default"><span class="ui-icon ui-icon arrowthick-2-n-s"></span><img src="img/sort1.png" alt="Image Unavailable"></li>
-        <li class="ui-state-default"><span class="ui-icon ui-icon arrowthick-2-n-s"></span><img src="img/sort2.png" alt="Image Unavailable"></li>
-        <li class="ui-state-default"><span class="ui-icon ui-icon arrowthick-2-n-s"></span><img src="img/sort3.png" alt="Image Unavailable"></li>
-        <li class="ui-state-default"><span class="ui-icon ui-icon arrowthick-2-n-s"></span><img src="img/sort4.png" alt="Image Unavailable"></li>
-        <li class="ui-state-default"><span class="ui-icon ui-icon arrowthick-2-n-s"></span><img src="img/sort5.png" alt="Image Unavailable"></li>
-      </ul>
-    </div>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Sortable Ninja</title>
+  <link rel="stylesheet" href="../jQueryUI_Dark/jquery-ui.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="../jQueryUI_Dark/external/jquery/jquery.js"></script>
+  <script src="../jQueryUI_Dark/jquery-ui.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#sortable").sortable({
+        opacity: .5
+      });
+      $("#sortable").disableSelection();
+    })
+  </script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <ul id="sortable">
+      <li class="ui-state-default"><span class="ui-icon ui-icon arrowthick-2-n-s"></span><img src="img/sort1.png" alt="Image Unavailable"></li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon arrowthick-2-n-s"></span><img src="img/sort2.png" alt="Image Unavailable"></li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon arrowthick-2-n-s"></span><img src="img/sort3.png" alt="Image Unavailable"></li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon arrowthick-2-n-s"></span><img src="img/sort4.png" alt="Image Unavailable"></li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon arrowthick-2-n-s"></span><img src="img/sort5.png" alt="Image Unavailable"></li>
+    </ul>
+  </div>
+</body>
+
 </html>

@@ -23,13 +23,16 @@
   text-align: center;
   width: 1000px;
 }
-img{
+
+img {
   display: inline-block;
 }
-ul{
+
+ul {
   list-style: none;
 }
-.ui-state-default{
+
+.ui-state-default {
   background: none !important;
   border: none !important;
 }
