@@ -13,25 +13,3 @@
 }
 
 /* Stylesheet */
-
-#wrapper {
-  width: 970px;
-  padding: 40px;
-  margin: 20px;
-  background: -webkit-linear-gradient(-45deg, rgb(0,31,63) 0%,rgb(255,133,27) 60%,rgb(255,220,0) 100%);
-  border: 3px outset #dddddd;
-  border-radius: 5px;
-  text-align: center;
-}
-
-h1{
-  color: white;
-  font-size: 2em;
-  font-weight: bold;
-  color: white;
-  text-shadow:
-   -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
-}
