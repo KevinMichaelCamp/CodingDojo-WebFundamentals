@@ -34,3 +34,11 @@ input{
   border-radius: 5px;
   padding: 10px;
 }
+h2{
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}

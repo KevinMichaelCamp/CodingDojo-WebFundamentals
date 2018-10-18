@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Other jQuery Libraries</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fancyInput.css">
+    <script src="https:/ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="fancyInput.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('div :input').fancyInput();
+      })
+    </script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Other jQuery Libraries</h1>
+      <h2>fancyInput (github)</h2>
+      <div><input type="text" ></div>
+    </div>
+    <div id="countdown" class="countdownHolder">
+    <span class="countDays">
+        <span class="position">
+            <span class="digit static"></span>
+        </span>
+        <span class="position">
+            <span class="digit static"></span>
+        </span>
+    </span>
+
+    <span class="countDiv countDiv0"></span>
+
+    <span class="countHours">
+        <span class="position">
+            <span class="digit static"></span>
+        </span>
+        <span class="position">
+            <span class="digit static"></span>
+        </span>
+    </span>
+
+    <span class="countDiv countDiv1"></span>
+
+    <span class="countMinutes">
+        <span class="position">
+            <span class="digit static"></span>
+        </span>
+        <span class="position">
+            <span class="digit static"></span>
+        </span>
+    </span>
+
+    <span class="countDiv countDiv2"></span>
+
+    <span class="countSeconds">
+        <span class="position">
+            <span class="digit static"></span>
+        </span>
+        <span class="position">
+            <span class="digit static"></span>
+        </span>
+    </span>
+
+    <span class="countDiv countDiv3"></span>
+</div>
+  </body>
+</html>
