@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TiltedPage Scroll</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tiltedPage_scroll.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="tiltedPage_scroll.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".main").tiltedpage_scroll({
+          sectionContainer: "> section",
+          angle: 50,
+          opacity: true,
+          scale: true,
+          outAnimation:true
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <div class="main">
+      <section class="page1">
+        <img src="img/img1.jpg" alt="">
+      </section>
+      <section class="page2">
+        <img src="img/img2.jpg" alt="">
+      </section>
+      <section class="page3">
+        <img src="img/img3.jpg" alt="">
+      </section>
+      <section class="page4">
+        <img src="img/img4.jpg" alt="">
+      </section>
+      <section class="page5">
+        <img src="img/img5.jpg" alt="">
+      </section>
+    </div>
+  </body>
+</html>
