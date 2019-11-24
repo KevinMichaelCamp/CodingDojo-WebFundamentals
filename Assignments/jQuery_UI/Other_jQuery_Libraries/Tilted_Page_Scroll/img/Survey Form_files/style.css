@@ -1,0 +1,32 @@
+body {
+  font-family: arial;
+}
+
+#wrapper {
+  border: 2pt solid black;
+  border-radius: 5px;
+  margin: 50px;
+  padding: 50px;
+  width: 1000px;
+}
+
+button {
+  border-radius: 5px;
+  display: block;
+  margin: 10px 0 0 120px;
+}
+
+.block {
+  display: block;
+}
+
+input, select, textarea {
+  border-radius: 5px;
+}
+
+textarea {
+  margin-left: 10px;
+}
+label {
+  margin: 10px;
+}

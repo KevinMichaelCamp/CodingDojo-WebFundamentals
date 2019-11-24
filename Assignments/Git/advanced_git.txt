@@ -1,0 +1,12 @@
+1. Created new repo on GitHub called basic_repo
+2. Created local repo called basic repo
+	> git init
+3. Added files to local repo
+4. 	> git add .
+	> git commit -m "Initial Commit"
+	> git push
+5. Made changes
+	> git add .
+	> git commit -m "Initial Commit"
+	> git push
+6. Checked git repo basic_repo > files are there
